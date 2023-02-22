@@ -1,0 +1,112 @@
+.sec-contact {
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+.contact-block {
+  padding-top: 80px;
+}
+.contact-txt-box {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+.contact-txt-box span {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .sec-contact {
+    padding-top: 80px;
+  }
+
+  .contact-block {
+    padding-top: 40px;
+  }
+  .contact-txt-box {
+    font-size: 1.5rem;
+  }
+  .contact-txt-box span {
+    font-size: 2rem;
+  }
+}
+
+.main-heading {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.form-field {
+  display: flex;
+  background-color: rgba(235, 235, 235, 0.25);
+  border-bottom: 1px dotted #707070;
+}
+
+.form-field:first-child {
+  border-top: 1px dotted #707070;
+}
+
+.form-field label {
+  width: 29%;
+  background-color: rgba(235, 235, 235, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2.9rem;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.form-field label[for="content"] {
+  align-items: flex-start;
+  padding-top: 2.7rem;
+}
+
+.form-field .annotation {
+  background-color: #ea5520;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 0.4rem 0.7rem;
+  margin-left: 1rem;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+}
+
+.form-field input,
+.form-field textarea {
+  width: calc(71% - 64px);
+  border: 0.1rem solid #707070;
+  padding: 0.8rem 1.6rem;
+  margin: 2.7rem 3.2rem;
+  font-size: 1.6rem;
+}
+
+.form-field input {
+  height: 4.6rem;
+}
+
+.form-field textarea {
+  resize: none;
+  height: 20.5rem;
+}
+
+.contact-form button {
+  color: #2c87c9;
+  background-color: #fff;
+  border: 2px solid #2c87c9;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 2.5rem;
+  padding: 0.6rem 6.4rem;
+  border-radius: 27px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-note {
+  text-align: center;
+  margin-top: 2.7rem;
+  margin-bottom: 3.5rem;
+}

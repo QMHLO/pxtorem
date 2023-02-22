@@ -1,0 +1,64 @@
+.public-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.4px;
+  max-width: 695px;
+  margin: 0 auto;
+}
+.public .mg-two {
+  margin: 16px 0 10px;
+}
+.public .d-flex {
+  flex-wrap: wrap;
+  margin: -32px -8px;
+}
+.public .card-item {
+  padding: 32px 8px;
+  /* margin-bottom: 65px; */
+}
+.public .card-txt {
+  padding: 0 18px 0 21px;
+}
+.public .card-btn {
+  padding: 0 5px 14px 0;
+}
+.public .card-txt-ttl {
+  margin-top: 8px;
+}
+.public .dgrid {
+  gap: 5px;
+}
+@media screen and (max-width: 768px) {
+  .public-txt {
+    font-size: 1.5rem;
+  }
+  .public .card-img {
+    padding: 10px 0 14px 10px;
+  }
+  .public .card-txt {
+    padding: 10px;
+  }
+  .public .d-flex {
+    margin: 0;
+    gap: 13px;
+  }
+  .public .d-flex .card-item {
+    padding: 0;
+  }
+}
+.public .card-img {
+  overflow: hidden;
+}
+.public .card-img img {
+  transition: all 0.5s;
+}
+.public .card-img img:hover {
+  transform: scale(1.15);
+}
+@media screen and (max-width: 768px) {
+  .public .card-img img:hover {
+    transform: scale(1);
+  }
+}

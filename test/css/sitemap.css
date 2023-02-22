@@ -1,0 +1,64 @@
+.site-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 100px;
+  margin-bottom: 120px;
+  font-size: 1.8rem;
+  letter-spacing: 0.36px;
+  line-height: 1.97;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.site-grid div .btn {
+  width: 100%;
+  margin: 15px 0;
+}
+.site-grid div ul.main-list li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 30px;
+  margin-left: 12px;
+}
+.site-grid div ul.main-list li::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  /* transform: translate(-4%, -50%); */
+  background: url(../img/sitemap/arrow-left.png) center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.site-grid div ul.sec-list li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 30px;
+  margin-left: 0;
+}
+.site-grid div ul.sec-list li::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0%;
+  /* transform: translate(-10%, -50%); */
+  background: url(../img/sitemap/icon-rect.png) center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .site-grid {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .site-grid div .btn {
+    margin: 5px 0;
+  }
+  .site-grid div ul.main-list li::before {
+    top: 6px;
+  }
+  .site-grid div ul.sec-list li::before {
+    top: 6px;
+  }
+}

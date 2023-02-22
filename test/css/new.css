@@ -1,0 +1,1363 @@
+/* Testing Facility */
+
+.testing-facility p {
+  font-size: 2rem;
+  line-height: 1.875;
+
+  letter-spacing: 0.4px;
+}
+.testing-facility .tf-img01 {
+  max-width: 730px;
+  margin: 10px auto 50px auto;
+}
+.testing-facility .tf-img01 span {
+  display: block;
+
+  font-size: 1.4rem;
+  line-height: 1.7;
+
+  text-align: right;
+}
+.testing-facility .seawater-list {
+  margin-bottom: 150px;
+}
+.testing-facility .seawater-block {
+  margin-bottom: 60px;
+}
+.testing-facility .seawater-block h4 {
+  font-size: 2.5rem;
+  line-height: 1.7;
+
+  letter-spacing: 1.25px;
+
+  color: #0d9b28;
+}
+.testing-facility .seawater-block .row {
+  display: flex;
+
+  column-gap: 15px;
+  justify-content: space-between;
+}
+.testing-facility .seawater-block .left {
+  width: 52%;
+}
+.testing-facility .seawater-block .right {
+  width: 48%;
+}
+.testing-facility .seawater-block p {
+  font-size: 2rem;
+  line-height: 1.875;
+
+  letter-spacing: 0.4px;
+}
+.testing-facility .seawater-block .right .tf-img {
+  max-width: 465px;
+  margin: 0 0 0 auto;
+}
+.testing-facility .seawater-block .right span {
+  display: block;
+
+  font-size: 1.4rem;
+  line-height: 1.7;
+
+  text-align: right;
+}
+.testing-facility .seawater-block.second .row {
+  column-gap: 30px;
+}
+.testing-facility .seawater-block.second .left {
+  width: 42%;
+}
+.testing-facility .seawater-block.second .right {
+  width: 58%;
+}
+.testing-facility .seawater-block.second .right .tf-img {
+  max-width: 562px;
+  margin: 0 0 0 auto;
+}
+.testing-facility .research-topics-wrapper .inner {
+  padding: 10px 25px 10px 25px;
+}
+.testing-facility .research-topics h5 {
+  font-size: 2rem;
+  line-height: 2.25;
+
+  letter-spacing: 1px;
+
+  color: #0d9b28;
+}
+.testing-facility .green .research-topics-wrapper .inner-ttl {
+  padding-left: 0;
+}
+.testing-facility .research-topics a {
+  padding: 20px 0 45px 0;
+
+  font-size: 2rem;
+  line-height: 1.875;
+
+  text-decoration: underline;
+  letter-spacing: 0.4px;
+
+  text-underline-offset: 2px;
+}
+@media screen and (max-width: 768px) {
+  .testing-facility p,
+  .testing-facility .seawater-block p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .testing-facility .tf-img01 span,
+  .testing-facility .seawater-block .right span {
+    font-size: 1.2rem;
+  }
+  .testing-facility .seawater-block h4 {
+    font-size: 1.8rem;
+  }
+  .testing-facility .seawater-block .row {
+    flex-direction: column;
+  }
+  .testing-facility .seawater-block .left,
+  .testing-facility .seawater-block .right,
+  .testing-facility .seawater-block.second .left,
+  .testing-facility .seawater-block.second .right {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .testing-facility .seawater-block {
+    margin-bottom: 30px;
+  }
+  .testing-facility .seawater-list {
+    margin-bottom: 70px;
+  }
+  .testing-facility .research-topics h5 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .testing-facility .research-topics a {
+    padding: 10px 0 25px 0;
+
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .testing-facility .research-topics-wrapper .inner {
+    padding: 10px 15px;
+  }
+}
+/* Testing Facility */
+
+/* Start hpc Experiment */
+.hpc-experiment .fac-card-grid {
+  column-gap: 0.15%;
+  grid-template-columns: 54.55% 45.3%;
+}
+
+@media screen and (max-width: 768px) {
+  .hpc-experiment .fac-card-grid {
+    column-gap: 0.15%;
+    grid-template-columns: 1fr;
+  }
+}
+/*Start hpc Experiment */
+
+/*START research experimental waterway */
+.research-exp-waterway {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.research-exp-waterway .waterway-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.research-exp-waterway .waterway-about .waterway-info {
+  margin-right: 31px;
+
+  flex-basis: 53%;
+}
+.research-exp-waterway .waterway-about .waterway-info .about-hist-para {
+  margin-bottom: 48px;
+}
+.research-exp-waterway .waterway-about .waterway-about-img {
+  flex: 1;
+}
+.research-exp-waterway .waterway-about .waterway-about-img img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+.research-exp-waterway .figcaption {
+  font-size: 15px;
+
+  text-align: right;
+}
+
+.research-exp-waterway .waterway-imgs {
+  display: flex;
+  margin-top: 40px;
+
+  gap: 12.4%;
+}
+
+@media screen and (max-width: 768px) {
+  .research-exp-waterway .waterway-about {
+    flex-direction: column;
+  }
+
+  .research-exp-waterway .waterway-about .waterway-info {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .research-exp-waterway .waterway-about .waterway-info .about-hist-para {
+    margin-bottom: 30px;
+  }
+
+  .research-exp-waterway .waterway-imgs {
+    flex-direction: column;
+
+    gap: 30px;
+  }
+}
+/*END research experimental waterway */
+
+/* Start Research Facility-Environmental Intelligent Aquarium */
+.en-aquarium .fac-card-grid {
+  column-gap: 3.1%;
+  grid-template-columns: 53.1% 43.8%;
+}
+.en-aquarium .fac-img-txt {
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-size: 1.5rem;
+}
+.aquarium-img-container .fac-img-flex {
+  display: flex;
+
+  justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .en-aquarium .fac-card-grid {
+    grid-template-columns: 1fr;
+  }
+  .en-aquarium .ft_20_0_30_pc,
+  .en-aquarium .ft_20_20_35_pc {
+    font-size: 1.5rem !important;
+  }
+  .en-aquarium .fac-img-txt {
+    font-size: 1.4rem;
+  }
+}
+/* End Research Facility-Environmental Intelligent Aquarium */
+/* Collaboration */
+.sec-collab.about .about-mv-txt {
+  top: unset;
+  bottom: 65px;
+}
+.sec-collab .card-txt {
+  padding: 0 18px;
+}
+
+.sec-collab .card-btn {
+  margin: 50px 10px 15px 0;
+}
+@media screen and (max-width: 768px) {
+  .sec-collab.about .about-mv-txt {
+    bottom: 3%;
+  }
+  .sec-collab .card-btn {
+    margin-top: 25px;
+  }
+  .sec-collab .card-txt {
+    /* padding-top: 0px; */
+    padding-right: 0;
+  }
+  .sec-collab .card-inner {
+    padding: 15px;
+  }
+  .sec-collab.about .card-img {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 374px) {
+  .sec-collab.about .img-txt {
+    font-size: 1.5rem !important;
+  }
+  .sec-collab.about .img-txt:last-child {
+    font-size: 1.2rem !important;
+  }
+  .sec-collab .btn-border-blue a,
+  .sec-collab .btn-border-green a,
+  .sec-collab .btn-border-red a,
+  .sec-collab .btn-border-yellow a,
+  .sec-collab .btn-border-org a,
+  .sec-collab .card-span-txt {
+    font-size: 1rem;
+  }
+  .sec-collab .card-txt-ttl {
+    font-size: 1.2rem;
+  }
+}
+/* Collaboration */
+/*START research face tank  */
+
+.research-face-tank {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.research-face-tank .figure {
+  width: 100%;
+}
+.research-face-tank .figcaption {
+  font-size: 1.5rem;
+
+  text-align: right;
+}
+.research-face-tank img {
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.research-face-tank .block-info-div {
+  display: flex;
+}
+.research-face-tank .block-info-div div:nth-child(1) {
+  margin-right: 31px;
+
+  flex-basis: 53.1%;
+}
+.research-face-tank .block-info-div div:nth-child(2) {
+  flex: 1;
+}
+.research-face-tank .block-info-div:not(:first-child) {
+  margin-top: 25px;
+}
+@media screen and (max-width: 768px) {
+  .research-face-tank .block-info-div {
+    flex-direction: column;
+  }
+  .research-face-tank .block-info-div div:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .research-face-tank .video-container iframe {
+    height: 300px;
+  }
+}
+/*END  research face tank  */
+
+/* START other public information */
+.other-public-information {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.other-public-information .icon-list-section ul li.num-before {
+  border-top: none;
+}
+
+.other-public-information .icon-list-section ul li:not(.num-before) a {
+  text-decoration: underline;
+}
+
+.other-public-information .icon-list-section {
+  margin-bottom: 20px;
+}
+.other-public-information .icon-list-section.first-num ul li.num-before::before {
+  content: "";
+
+  background: none;
+}
+.other-public-information .icon-list-section.sec-num ul li.num-before::before {
+  content: "";
+
+  background: none;
+}
+
+.other-public-information .icon-list-section.first-num ul li.num-before {
+  padding-left: 0;
+}
+.other-public-information .icon-list-section.sec-num ul li.num-before {
+  padding-left: 0;
+}
+
+.other-public-information .icon-list-section ul li.not-num-color {
+  padding-left: 0;
+
+  text-decoration: none !important;
+
+  border-top: none;
+}
+.other-public-information .icon-list-section ul li.not-num-color a {
+  text-decoration: none;
+
+  color: #194762;
+}
+.other-public-information .icon-list-section ul li.color-black a {
+  color: #000;
+}
+.other-public-information .icon-list-section ul li.not-num-color::before {
+  content: none;
+}
+.other-public-information .icon-list-section ul li.not-border {
+  border: none;
+}
+.other-public-information .icon-list-section ul li.border-top {
+  border-top: 1px solid #3288c7;
+}
+.other-public-information .icon-list-section ul li.not-before::before {
+  content: "";
+
+  background: none;
+}
+.other-public-information .icon-list-section ul li.not-before {
+  padding-left: 0;
+}
+.other-public-information .back-number-link a {
+  padding: 16px 0;
+
+  text-decoration: underline;
+
+  color: #2c87c9;
+
+  text-decoration-skip: inherit;
+}
+
+.other-public-information .public-info-para {
+  padding: 30px 0;
+}
+.other-public-information .public-info-para > p:first-child {
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .other-public-information .public-info-para {
+    padding: 10px 0;
+  }
+}
+/* END other public information */
+
+/* START coastal environment research */
+
+.coastal-env-research img {
+  width: 100%;
+}
+
+.coastal-env-research figcaption {
+  text-align: right;
+}
+.coastal-env-research .coastal-call-action {
+  display: block;
+  padding: 14.2px 25px;
+  margin-bottom: 35px;
+
+  border: 1px solid #0b55af;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*20230131追加*/
+.coastal-env-research .coastal-call-action-green {
+  display: block;
+  padding: 14.2px 25px;
+  margin-bottom: 35px;
+
+  border: 1px solid #0d9b28;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.coastal-env-research .coastal-call-action-red {
+  display: block;
+  padding: 14.2px 25px;
+  margin-bottom: 35px;
+
+  border: 1px solid #cc3b4c;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.member-low {
+  display: flex;
+}
+.member-right {
+  min-width: 140px;
+  margin-top: auto;
+  margin-left: 40px;
+}
+.member-left {
+  width: 80%;
+}
+/*20230131追加ここまで*/
+
+.coastal-env-research .coastal-call-action p {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+  line-height: 2.25;
+
+  color: #0052b2;
+}
+.coastal-env-research .coastal-call-action a {
+  display: block;
+  padding: 4px 13.6px 2px 13.6px;
+
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+
+  color: #0052b2;
+  border-radius: 100vmax;
+  outline: 1px solid #0052b2;
+
+  align-items: center;
+}
+
+/*20230131追加*/
+.coastal-env-research .coastal-call-action-green p {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+  line-height: 2.25;
+
+  color: #0d9b28;
+}
+.coastal-env-research .coastal-call-action-green a {
+  display: block;
+  padding: 4px 13.6px 2px 13.6px;
+
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+
+  color: #0d9b28;
+  border-radius: 100vmax;
+  outline: 1px solid #0d9b28;
+
+  align-items: center;
+}
+.coastal-env-research .coastal-call-action-red p {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+  line-height: 2.25;
+
+  color: #cc3b4c;
+}
+.coastal-env-research .coastal-call-action-red a {
+  display: block;
+  padding: 4px 13.6px 2px 13.6px;
+
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+
+  color: #cc3b4c;
+  border-radius: 100vmax;
+  outline: 1px solid #cc3b4c;
+
+  align-items: center;
+}
+
+.coastal-env-research .visit-researcher-green {
+  padding: 22px 24px;
+  margin-bottom: 63px;
+
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+
+  border: 1px solid #0d9b28;
+}
+.coastal-env-research .visit-researcher-red {
+  padding: 22px 24px;
+  margin-bottom: 63px;
+
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+
+  border: 1px solid #cc3b4c;
+}
+/*20230131追加ここまで*/
+
+.coastal-env-research .visit-researcher {
+  padding: 22px 24px;
+  margin-bottom: 63px;
+
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+
+  border: 1px solid #0b55af;
+}
+
+.coastal-env-research .visit-researcher .visit-item {
+  display: flex;
+
+  gap: 15px;
+}
+
+.coastal-env-research .visit-researcher .visit-item .visit-item-field {
+  text-align: right;
+
+  flex-basis: 102px;
+}
+.coastal-env-research .visit-researcher .visit-item .visit-item-about {
+  position: relative;
+
+  flex: 1;
+}
+
+.coastal-env-research .icon-list-section li a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .coastal-env-research .coastal-call-action {
+    padding: 10px 5px;
+    margin-bottom: 15px;
+  }
+  .coastal-env-research .coastal-call-action p {
+    font-size: 1.5rem;
+  }
+  .coastal-env-research .coastal-call-action a {
+    padding: 3px 10px 1px 10px;
+
+    font-size: 1.4rem;
+  }
+
+  .coastal-env-research .visit-researcher {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .coastal-env-research .visit-researcher .visit-item {
+    gap: 7px;
+  }
+  .coastal-env-research .visit-researcher .visit-item .visit-item-field {
+    flex-basis: 75px;
+  }
+  /*20230131追加*/
+  .member-low {
+    display: block;
+  }
+  .member-right {
+    max-width: 140px;
+    margin: 10px 0 0 auto;
+  }
+  .member-left {
+    width: 100%;
+
+    font-size: 1.5rem;
+  }
+  /*20230131追加ここまで*/
+}
+/* END coastal environment research */
+
+/* Disclose Information */
+.dis-info .para {
+  padding: 35px 90px 35px 70px;
+  margin-bottom: 20px;
+
+  font-size: 2rem;
+  line-height: 2.25;
+
+  letter-spacing: 1px;
+
+  background: rgba(44, 135, 201, 0.1);
+}
+.dis-info .para.lc {
+  letter-spacing: 0.4px;
+}
+.dis-info .contact-box {
+  padding-top: 25px;
+  margin: 40px 0 100px 0;
+
+  border: 1px solid #3288c7;
+  background: #fff;
+}
+.dis-info .contact-box .h5-ttl {
+  padding-right: 20px;
+
+  line-height: 2;
+}
+.dis-info .contact-box .h5-ttl.w-533 {
+  width: 533px;
+}
+.dis-info .contact-box .email {
+  display: inline-block;
+  padding: 0 10px;
+
+  font-size: 1.3rem;
+}
+.dis-info .report-txt {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+@media screen and (max-width: 768px) {
+  .dis-info .contact-box .h5-ttl.w-533 {
+    width: auto;
+  }
+  .dis-info .contact-box .h5-ttl {
+    padding: 0 10px;
+  }
+  .dis-info .para {
+    padding: 20px;
+
+    font-size: 1.5rem;
+  }
+  .dis-info .contact-box .email {
+    font-size: 1rem;
+  }
+  .dis-info .report-txt {
+    font-size: 1.2rem;
+  }
+  .dis-info .contact-box {
+    padding-top: 15px;
+    margin: 20px 0 50px 0;
+  }
+}
+/* Disclose Information */
+/* START motion earthquake resistant */
+.motion-earthquake-resistant {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.motion-earthquake-resistant .motion-earth-img-container.figure {
+  width: min(779px, 80%);
+  margin: auto;
+}
+
+/* END motion earthquake resistant */
+
+/*START mitigation-recovery */
+.mitigation-recovery {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.mitigation-recovery img {
+  width: 100%;
+}
+
+.mitigation-recovery .mit-rec-img-container figcaption {
+  font-size: 1.5rem;
+  line-height: 1.73;
+
+  text-align: right;
+  letter-spacing: -0.375px;
+}
+.mitigation-recovery .mit-rec-img-container figure.hydraulic-tank {
+  width: min(655px, 90%);
+  margin: auto;
+}
+.mitigation-recovery .mit-rec-img-container figure.reinforment {
+  width: min(714px, 90%);
+  margin: auto;
+}
+
+.mit-rec-img-container figure.damaged {
+  width: 36.2%;
+}
+.mit-rec-img-container figure.grasping {
+  width: 32%;
+}
+.mit-rec-img-container figure.tech {
+  width: 27.3%;
+}
+.mit-rec-img-container.three-imgs {
+  display: flex;
+
+  justify-content: space-between;
+}
+.mit-rec-img-container .imgs-container {
+  display: flex;
+
+  gap: 4%;
+}
+@media screen and (max-width: 768px) {
+  .mitigation-recovery .mit-rec-img-container figcaption {
+    font-size: 1.4rem;
+  }
+  .mit-rec-img-container.three-imgs {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+  .mit-rec-img-container.three-imgs figure,
+  .mit-rec-img-container .imgs-container figure {
+    width: 90%;
+    margin: auto;
+  }
+  .mit-rec-img-container .imgs-container {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+}
+
+/*END mitigation-recovery */
+
+/*START research Achievement */
+.research-achievement {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.research-achievement table th {
+  font-size: 2rem !important;
+  line-height: 1.875;
+
+  letter-spacing: 0.4px;
+}
+
+.research-achievement table td {
+  font-size: 2rem !important;
+  line-height: 1.625;
+
+  letter-spacing: 0.4px;
+}
+.research-achievement table.time-table.table-col-4.table-col-5 tr td:not(:first-child) {
+  padding: 10px;
+
+  text-align: left;
+}
+.research-achievement table tr td > div:not(:last-child) {
+  padding-right: 0;
+
+  border-bottom: 1px dotted #707070;
+}
+.research-achievement table tr td > div:not(:first-child) {
+  padding-top: 10px;
+}
+.research-achievement table.time-table.table-col-4.table-col-5 tr td:nth-child(1) {
+  width: 3.7%;
+}
+.research-achievement table.time-table.table-col-4.table-col-5 tr td:nth-child(2) {
+  width: 29.5%;
+}
+.research-achievement table.time-table.table-col-4.table-col-5 tr td:nth-child(3) {
+  width: 23.3%;
+}
+.research-achievement table.time-table.table-col-4.table-col-5 tr td:nth-child(4) {
+  width: 23.8%;
+}
+.research-achievement table.time-table.table-col-4.table-col-5 tr td:nth-child(5) {
+  width: 19.3%;
+}
+.research-achievement .table-achiev-info {
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.73;
+
+  letter-spacing: -0.375px;
+}
+@media screen and (max-width: 768px) {
+  .research-achievement table td,
+  .research-achievement table th {
+    font-size: 1.5rem !important;
+  }
+  .research-achievement .table-achiev-info {
+    font-size: 1.4rem;
+  }
+}
+
+/* END research Achievement */
+/* start hamaguchi-lecture */
+.pg-hamaguchi-lecture .sub-ttl {
+  margin-bottom: 15px;
+
+  line-height: 1.2;
+}
+/* end hamaguchi-lecture */
+
+/* START research search result */
+.research-search-result {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.research-search-result .input-ctrl input {
+  position: relative;
+
+  padding: 25px 10px 15px 10px;
+
+  text-align: right;
+}
+.research-search-result .input-ctrl {
+  position: relative;
+}
+.research-search-result .input-ctrl::after {
+  position: absolute;
+  right: 0;
+
+  font-size: 1.4rem !important;
+  line-height: 1.71;
+
+  content: "※漢字入力のみ対応（ひらがな、カタカナ入力未対応";
+  text-align: right;
+  vertical-align: top;
+
+  color: #ea5520;
+}
+.research-search-result .input-ctrl input::placeholder {
+  font-size: 2rem !important;
+  line-height: 1.875;
+
+  letter-spacing: 0.4px;
+
+  color: #000;
+}
+.research-search-result .search-wrapper {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .research-search-result .input-ctrl input::placeholder {
+    font-size: 1.5rem !important;
+  }
+  .research-search-result .input-ctrl input {
+    padding: 12px 10px 8px 10px;
+  }
+  .research-search-result .input-ctrl::after {
+    font-size: 1.2rem !important;
+    line-height: 1.2;
+  }
+  .research-search-result .search-wrapper {
+    padding-bottom: 50px;
+  }
+}
+
+/* END research search result */
+
+/*start research shaking table */
+
+.research-shaking-tbl .fac-card-grid {
+  column-gap: 1.4%;
+  grid-template-columns: 52% 46.3%;
+}
+
+@media screen and (max-width: 768px) {
+  .research-shaking-tbl .fac-card-grid {
+    column-gap: 1.4%;
+    grid-template-columns: 1fr;
+  }
+  .research-shaking-tbl .wth-100-sp {
+    width: 490px;
+    margin: 0 auto;
+  }
+}
+
+/*end research shaking table */
+
+/*start research data publishing */
+
+.research-data-publishing ul li a {
+  letter-spacing: -1px;
+}
+
+/*end research data publishing */
+
+/* Start isi-development promotion */
+.isi-list .list-ul {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+
+  letter-spacing: 0.4px;
+}
+.isi-list .list-ul .list-li {
+  /* padding: 10px 0 10px 40px; */
+  position: relative;
+
+  border-top: 1px solid var(--boder-blue);
+}
+.isi-list .list-ul .list-li:last-child {
+  border-bottom: 1px solid var(--boder-blue);
+}
+.isi-list .list-ul .list-li a::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+
+  width: 30px;
+  height: 30px;
+
+  content: "";
+  /* transform: translateY(-50%); */
+
+  background: url(../img/common/list_icon_blue.png) no-repeat center;
+}
+.isi-list .list-ul .list-li a {
+  padding: 10px 0 0 40px;
+
+  text-decoration: underline;
+
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+@media screen and (max-width: 768px) {
+  .isi-list .list-ul .list-li a {
+    padding: 5px 0 0 30px;
+  }
+  .isi-list .list-ul .list-li a::before {
+    top: 10px;
+
+    width: 20px;
+    height: 20px;
+
+    background-size: contain;
+  }
+  .isi-list .list-ul {
+    font-size: 1.5rem;
+  }
+}
+.isi-promotion .txt-box {
+  padding: 20px 0;
+
+  border: 1px solid #2c87c9;
+}
+/* End isi-development promotion */
+
+/* 2023/02/06追加 */
+/* Result Research Paper */
+.research-paper * {
+  box-sizing: border-box;
+}
+.research-paper .radio-box-container span {
+  align-self: center;
+}
+input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+.research-paper input[type="text"] {
+  width: 610px;
+  height: 60px;
+
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+
+  border: 1px solid #194762;
+}
+.affiliation.right select {
+  border: 1px solid #194762;
+}
+.research-paper input[type="number"] {
+  border: 1px solid #194762;
+}
+@media screen and (max-width: 768px) {
+  input[type="radio"] {
+    width: 16px;
+    height: 16px;
+  }
+  .research-paper .radio-box-container {
+    letter-spacing: 0;
+  }
+}
+
+.input-group {
+  display: flex;
+
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+}
+
+.input-group .right {
+  flex-grow: 1;
+}
+.input-group:nth-child(1) {
+  padding-top: 35px;
+  margin-bottom: 25px;
+}
+
+.input-group:nth-child(2) {
+  margin-top: 16px;
+}
+
+.input-group:nth-child(3) {
+  margin-top: 39px;
+}
+.input-group:nth-child(4) {
+  margin-top: 54px;
+}
+
+.specified-search .container {
+  padding-bottom: 40px;
+}
+
+.specified-search .search-title {
+  width: 103px;
+  margin-right: 20px;
+
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+
+  text-align: right;
+
+  color: #164763;
+
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.input-group .radio-box > div {
+  margin-bottom: 10px;
+}
+
+.keyword-searchbox {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+}
+
+.keyword-searchbox > div {
+  display: flex;
+
+  gap: 20px;
+}
+
+.keyword-searchbox > input[type="text"] {
+  width: auto;
+
+  flex-grow: 1;
+}
+
+.keyword-searchbox > div {
+  flex-shrink: 0;
+}
+
+.publication-year-searchbox {
+  display: flex;
+
+  gap: 34px;
+}
+
+.publication-year-searchbox > span {
+  font-size: 3rem;
+}
+
+.publication-year-searchbox > input,
+.affiliation select {
+  height: 42px;
+  padding-left: 14px;
+
+  font-size: 20px;
+}
+.publication-year-searchbox > input {
+  max-width: 197px;
+}
+
+.affiliation {
+  display: flex;
+
+  gap: 50px;
+}
+
+.affiliation > select {
+  flex-grow: 1;
+}
+
+.btn-group {
+  margin-top: 66px;
+
+  gap: 84px;
+  justify-content: center;
+}
+
+.search-btn {
+  display: inline-block;
+  height: 50px;
+  padding: 0 16px;
+
+  font-size: 2rem;
+
+  vertical-align: middle;
+
+  color: #fff;
+  border: none;
+  outline: transparent;
+}
+
+.search-btn.primary {
+  background-color: #164763;
+}
+
+.search-btn.secondary {
+  background-color: #b5b5b5;
+}
+
+@media screen and (max-width: 860px) {
+  .specified-search,
+  .specified-search label {
+    /* font-size: 1.4rem; */
+  }
+
+  .specified-search .container {
+    padding-bottom: 20px;
+  }
+
+  .specified-search .search-title {
+    width: 90px;
+    margin-right: 12px;
+
+    font-size: 1.6rem;
+  }
+
+  .research-paper input[type="text"] {
+    height: 46px;
+  }
+  .publication-year-searchbox > input,
+  .affiliation select {
+    /* font-size: 1.4rem; */
+  }
+  .affiliation {
+    gap: 25px;
+  }
+  .publication-year-searchbox {
+    gap: 16px;
+  }
+  .publication-year-searchbox > input,
+  .affiliation select {
+    font-size: 1.4rem;
+  }
+  .publication-year-searchbox > span {
+    font-size: 2rem;
+  }
+  input[type="radio"] {
+    width: 16px;
+    height: 16px;
+  }
+  .input-group {
+    font-size: 1.6rem;
+  }
+  .input-group .radio-box > div {
+    margin-bottom: 5px;
+  }
+  .input-group:nth-child(1) {
+    padding-top: 18px;
+    margin-bottom: 12px;
+  }
+  .input-group:nth-child(2) {
+    margin-top: 8px;
+  }
+  .input-group:nth-child(3) {
+    margin-top: 20px;
+  }
+  .input-group:nth-child(4) {
+    margin-top: 28px;
+  }
+
+  .btn-group {
+    margin-top: 33px;
+
+    gap: 42px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .publication-year-searchbox,
+  .affiliation {
+    flex-direction: column;
+
+    gap: 0;
+  }
+  .input-group {
+    flex-direction: column;
+
+    font-size: 1.4rem;
+
+    gap: 8px;
+  }
+  .specified-search .search-title {
+    font-size: 1.4rem;
+
+    text-align: left;
+
+    align-self: flex-start;
+  }
+  .affiliation {
+    gap: 12px;
+  }
+  .publication-year-searchbox > input,
+  .affiliation select {
+    height: 30px;
+    padding-left: 8px;
+  }
+  .keyword-searchbox {
+    flex-direction: column;
+
+    align-items: normal;
+    gap: 10px;
+  }
+
+  .search-btn {
+    height: 33px;
+    padding: 0 12px;
+
+    font-size: 1.4rem;
+
+    vertical-align: middle;
+  }
+}
+
+/* research paper search */
+.research-paper-search .icon-list-section ul {
+  display: grid;
+
+  border-top: 1px solid var(--boder-blue);
+  border-bottom: 1px solid var(--boder-blue);
+
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.research-paper-search .icon-list-section ul li {
+  position: relative;
+
+  border: none;
+}
+
+.research-paper-search .icon-list-section ul li:last-child {
+  border: none;
+}
+.research-paper-search .icon-list-section.year-list ul li::before {
+  position: absolute;
+
+  transform: translateY(35%);
+}
+.research-paper-search .icon-lst-item ul {
+  display: block;
+
+  border-top: 1px solid var(--boder-blue);
+  border-bottom: 1px solid var(--boder-blue);
+}
+.research-paper-search .input-group {
+  align-items: center;
+}
+.research-paper-search .publication-year-searchbox {
+  padding: 12px 0;
+
+  align-items: center;
+}
+.research-paper-search .input-group p {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+
+  color: #164763;
+}
+.research-paper-search input[type="number"] {
+  border: 1px solid #194762;
+}
+@media screen and (max-width: 1024px) {
+  .research-paper-search .icon-list-section ul {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .research-paper-search .input-group {
+    display: block;
+  }
+  .research-paper-search .publication-year-searchbox {
+    margin-bottom: 10px;
+
+    align-items: flex-start;
+  }
+  .research-paper-search .icon-list-section ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 453px) {
+  .research-paper-search .icon-list-section ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Search Result */
+.sec-search-result form {
+  display: block !important;
+}

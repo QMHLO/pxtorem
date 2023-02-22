@@ -1,0 +1,16 @@
+/*Observation Page Start */
+.overview-ttl {
+  font-size: 25px;
+  color: var(--red-color);
+}
+.block-info {
+  gap: 20px;
+}
+.block-info .block-left {
+  width: 48%;
+}
+.block-info .block-right {
+  width: 52%;
+}
+@media screen and (max-width: 768px) {
+}

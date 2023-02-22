@@ -1,0 +1,3709 @@
+@charset "utf-8";
+
+html {
+  text-rendering: optimizeLegibility !important;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: "noto-sans-cjk-jp", "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro", "Hiragino Sans", "メイリオ", "Meiryo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  color: #000;
+  background: transparent;
+  text-rendering: optimizeLegibility;
+}
+
+section {
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+}
+button.font-size-btn {
+  transition: background-color 0.2s ease-in-out;
+}
+
+button.font-size-btn:hover {
+  background: #2c87c9;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+.tel {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .tel {
+    pointer-events: auto;
+  }
+}
+
+/* ===============================
+Text align
+=============================== */
+.txt-left {
+  text-align: left !important;
+}
+
+.txt-center {
+  text-align: center !important;
+}
+
+.txt-right {
+  text-align: right !important;
+}
+.txt-justify {
+  text-align: justify !important;
+}
+
+.txt-underline {
+  text-decoration: underline !important;
+}
+.txt-underline-sty-1 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.txt-underline-sty-1.offset-2 {
+  text-underline-offset: 2px;
+}
+.txt-underline-sty-2 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.txt-underline-sty-3 {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+.txt-underline-sty-4 {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+}
+.txt-underline-sty-auto {
+  text-decoration: underline;
+  text-decoration-thickness: auto;
+  text-underline-offset: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .txt-left-sp {
+    text-align: left !important;
+  }
+
+  .txt-center-sp {
+    text-align: center !important;
+  }
+
+  .txt-right-sp {
+    text-align: right !important;
+  }
+}
+
+/* ===============================
+Color
+=============================== */
+:root {
+  /* blue */
+  --top-dark-blue: #164763;
+  --top-light-blue: #37bef0;
+  --mid-blue: #2c87c9;
+  --blue-color: #0052b2;
+  /* orange */
+  --top-org: #ea5520;
+  --center-org: #f78009;
+  /* red */
+  --red-color: #cc3b4c;
+  /* green */
+  --green-color: #0d9b28;
+  --light-green: #86b966;
+  /* black */
+  --b-color: #000000;
+  /* white */
+  --w-color: #ffffff;
+  /* gray */
+  --dark-gray: #b5b5b5;
+  --gray-color: #ededed;
+  /* yellow */
+  --yellow-color: #d3b740;
+
+  --boder-blue: #3288c7;
+  --boder-green: #0d9b28;
+  --boder-red: #cc3b4c;
+  --border-gray: #707070;
+  --border-org: #f58026;
+  --border-h5-org: #d3b740;
+  --border-h5-red: #ca3d4f;
+  --border-h5-green: #1c9a30;
+
+  --border-dash-blue: #0b55af;
+
+  --txt-dark-blue: #194762;
+
+  --bg-gray: #eaeaea;
+  --bg-soft-w: #fafafa;
+  --bg-mid-w: #fdfdfd;
+
+  --bg-td-gray-25: rgba(234, 234, 234, 0.25);
+  --bg-td-gray-49: rgba(234, 234, 234, 0.49);
+  --bg-td-w-49: rgba(250, 250, 250, 0.49);
+
+  --bg-th-blue-80: rgba(44, 135, 201, 0.8);
+  --bg-th-blue-60: rgba(44, 135, 201, 0.6);
+  --bg-th-blue-35: rgba(44, 135, 201, 0.35);
+  --bg-th-blue-25: rgba(44, 135, 201, 0.25);
+
+  --bg-red: rgba(204, 59, 76, 0.1);
+  --bg-blue: rgb(0, 82, 178, 0.1);
+  --bg-green: rgb(13, 155, 40, 0.1);
+  --bg-org: #fbf8ec;
+
+  --hover-blue: #0093ff;
+  --hover-green: #87b86a;
+  --hover-red: #f75d5d;
+  --hover-yellow: #efcf48;
+  --hover-bg-green: #9bd676;
+  --hover-org: #f59e47;
+  --hover-bg-gray: #f2f2f2;
+  --hover-bg-blue: #0075ff;
+}
+
+/* blue */
+.top-dark-blue {
+  color: #164763;
+}
+
+.top-light-blue {
+  color: #37bef0;
+}
+
+.mid-blue {
+  color: #2c87c9;
+}
+
+.bg-mid-blue {
+  color: var(--w-color);
+  background-color: #2c87c9;
+}
+
+.blue-color {
+  color: #0052b2;
+}
+.dark-blue-color {
+  color: #194762;
+}
+
+/* orange */
+.top-org {
+  color: #ea5520;
+}
+
+.center-org {
+  color: #f78009;
+}
+
+/* red */
+.red-color {
+  color: #cc3b4c;
+}
+
+/* green */
+.green-color {
+  color: #0d9b28;
+}
+
+.light-green {
+  color: #86b966;
+}
+
+/* black */
+.b-color {
+  color: #000000;
+}
+
+/* white */
+.w-color {
+  color: #fffcef;
+}
+
+/* gray */
+.dark-gray {
+  color: #b5b5b5;
+}
+
+.gray-color {
+  color: #ededed;
+}
+
+/* yellow */
+.yellow-color {
+  color: #d3b740;
+}
+
+/* ===============================
+Background Color
+=============================== */
+.bg-main {
+  background: #900;
+}
+
+.bg-sub {
+  /* background: #000; */
+}
+
+.bg-b {
+  background: #000;
+}
+
+.bg-w {
+  background: #fff;
+}
+.bg-card-w {
+  background: #fffcef;
+}
+.bg-card-w62 {
+  background: rgba(255, 252, 239, 0.62);
+}
+.bg-gray {
+  background: #eaeaea;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+/* ===============================
+Main text
+=============================== */
+.main-txt {
+  font-size: 2rem;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .main-txt {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+}
+
+/* ===============================
+Line Height
+=============================== */
+.li-he1 {
+  line-height: 1 !important;
+}
+
+.li-he1-2 {
+  line-height: 1.2 !important;
+}
+
+.li-he1-3 {
+  line-height: 1.3 !important;
+}
+
+.li-he1-4 {
+  line-height: 1.4 !important;
+}
+
+.li-he1-5 {
+  line-height: 1.5 !important;
+}
+
+.li-he1-6 {
+  line-height: 1.6 !important;
+}
+
+.li-he1-7 {
+  line-height: 1.7 !important;
+}
+
+.li-he1-8 {
+  line-height: 1.8 !important;
+}
+
+.li-he1-9 {
+  line-height: 1.9 !important;
+}
+
+.li-he2 {
+  line-height: 2 !important;
+}
+
+.li-he2-1 {
+  line-height: 2.1 !important;
+}
+
+.li-he2-2 {
+  line-height: 2.2 !important;
+}
+
+.li-he2-3 {
+  line-height: 2.3 !important;
+}
+
+/* ===============================
+Header Top Section Padding
+=============================== */
+.header-top-sec-pt {
+  padding-top: 165px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 820px) {
+  .header-top-sec-pt {
+    padding-top: 152px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-top-sec-pt {
+    padding-top: 82.5px;
+    /* padding-bottom: 70px; */
+  }
+}
+
+/* ===============================
+Section Title
+=============================== */
+
+/* image border */
+.bdr-w {
+  border: 7px solid #fff;
+  background: #fff;
+}
+
+.bdr-g {
+  border: 7px solid #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+  .bdr-w {
+    border: 5px solid #fff;
+  }
+
+  .bdr-g {
+    border: 5px solid #f1f1f1;
+  }
+}
+
+/* display */
+.dis-block {
+  display: block !important;
+}
+
+.dis-inline {
+  display: inline !important;
+}
+
+.dis-inblock {
+  display: inline-block !important;
+}
+
+.disflex {
+  display: flex !important;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Gap */
+.gap5 {
+  gap: 5px !important;
+}
+.gap10 {
+  gap: 10px !important;
+}
+.gap15 {
+  gap: 15px !important;
+}
+.gap16 {
+  gap: 16px !important;
+}
+.gap17 {
+  gap: 17px !important;
+}
+.gap18 {
+  gap: 18px !important;
+}
+.gap19 {
+  gap: 19px !important;
+}
+.gap20 {
+  gap: 20px !important;
+}
+.gap22 {
+  gap: 22px !important;
+}
+.gap24 {
+  gap: 24px !important;
+}
+.gap25 {
+  gap: 25px !important;
+}
+.gap30 {
+  gap: 30px !important;
+}
+.gap35 {
+  gap: 35px !important;
+}
+.gap40 {
+  gap: 40px !important;
+}
+.gap45 {
+  gap: 45px !important;
+}
+.gap50 {
+  gap: 50px !important;
+}
+.gap-156 {
+  gap: 156px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
+.gap-64 {
+  gap: 64px;
+}
+
+.gap-54 {
+  gap: 54px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-46 {
+  gap: 46px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-44 {
+  gap: 44px;
+}
+
+.gap-38 {
+  gap: 38px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-13 {
+  gap: 13px;
+}
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-7 {
+  gap: 7px;
+}
+
+.row-gap-115 {
+  row-gap: 115px;
+}
+
+.row-gap-80 {
+  row-gap: 80px;
+}
+
+.row-gap-70 {
+  row-gap: 70px;
+}
+
+.row-gap-65 {
+  row-gap: 65px;
+}
+
+.row-gap-50 {
+  row-gap: 50px;
+}
+
+.row-gap-46 {
+  row-gap: 46px;
+}
+
+.row-gap-33 {
+  row-gap: 33px;
+}
+
+.row-gap-27 {
+  row-gap: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .row-gap-sp-25 {
+    row-gap: 25px;
+  }
+
+  .row-gap-sp-35 {
+    row-gap: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dis-block-sp {
+    display: block !important;
+  }
+
+  .dis-inline-sp {
+    display: inline !important;
+  }
+
+  .dis-inblock-sp {
+    display: inline-block !important;
+  }
+  /* Gap */
+  .gap5-sp {
+    gap: 5px !important;
+  }
+  .gap10-sp {
+    gap: 10px !important;
+  }
+  .gap15-sp {
+    gap: 15px !important;
+  }
+  .gap16-sp {
+    gap: 16px !important;
+  }
+  .gap17-sp {
+    gap: 17px !important;
+  }
+  .gap18-sp {
+    gap: 18px !important;
+  }
+  .gap19-sp {
+    gap: 19px !important;
+  }
+  .gap20-sp {
+    gap: 20px !important;
+  }
+  .gap22-sp {
+    gap: 22px !important;
+  }
+  .gap24-sp {
+    gap: 24px !important;
+  }
+  .gap25-sp {
+    gap: 25px !important;
+  }
+  .gap30-sp {
+    gap: 30px !important;
+  }
+}
+
+/*float */
+.float-block-lf {
+  float: left;
+}
+
+.float-block-rg {
+  float: right;
+}
+
+.float-block-none {
+  float: none;
+}
+
+/* ===============================
+Section container
+=============================== */
+.wrapper {
+  position: relative;
+}
+
+section * {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.m-w125 {
+  max-width: 125px;
+}
+.m-w200 {
+  max-width: 200px;
+}
+
+.m-w860 {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.m-w112 {
+  max-width: 112px;
+}
+.m-w186 {
+  max-width: 186px;
+}
+.m-w1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ===============================
+Width Percent
+=============================== */
+.wth-10 {
+  width: 10%;
+}
+.wth-15 {
+  width: 15%;
+}
+.wth-20 {
+  width: 20%;
+}
+.wth-25 {
+  width: 25%;
+}
+.wth-30 {
+  width: 30%;
+}
+.wth-35 {
+  width: 35%;
+}
+.wth-40 {
+  width: 40%;
+}
+.wth-45 {
+  width: 45%;
+}
+.wth-50 {
+  width: 50%;
+}
+.wth-55 {
+  width: 55%;
+}
+.wth-60 {
+  width: 60%;
+}
+.wth-62 {
+  width: 62%;
+}
+.wth-65 {
+  width: 65%;
+}
+.wth-70 {
+  width: 70%;
+}
+.wth-75 {
+  width: 75%;
+}
+.wth-80 {
+  width: 80%;
+}
+.wth-85 {
+  width: 85%;
+}
+.wth-90 {
+  width: 90%;
+}
+.wth-95 {
+  width: 95%;
+}
+.wth-100 {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .wth-10-sp {
+    width: 10%;
+  }
+  .wth-15-sp {
+    width: 15%;
+  }
+  .wth-20-sp {
+    width: 20%;
+  }
+  .wth-25-sp {
+    width: 25%;
+  }
+  .wth-30-sp {
+    width: 30%;
+  }
+  .wth-35-sp {
+    width: 35%;
+  }
+  .wth-40-sp {
+    width: 40%;
+  }
+  .wth-45-sp {
+    width: 45%;
+  }
+  .wth-50-sp {
+    width: 50%;
+  }
+  .wth-55-sp {
+    width: 55%;
+  }
+  .wth-60-sp {
+    width: 60%;
+  }
+  .wth-65-sp {
+    width: 65%;
+  }
+  .wth-70-sp {
+    width: 70%;
+  }
+  .wth-75-sp {
+    width: 75%;
+  }
+  .wth-80-sp {
+    width: 80%;
+  }
+  .wth-85-sp {
+    width: 85%;
+  }
+  .wth-90-sp {
+    width: 90%;
+  }
+  .wth-95-sp {
+    width: 95%;
+  }
+  .wth-100-sp {
+    width: 100%;
+  }
+}
+
+/* ===============================
+Column Group
+=============================== */
+.col-gp {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.col-center {
+  justify-content: center;
+}
+.col-space-between {
+  justify-content: space-between;
+}
+
+.ali-center {
+  align-items: center;
+}
+.ali-end {
+  align-items: end;
+}
+.col1 {
+  width: 100%;
+}
+
+.col2 {
+  width: 50%;
+}
+
+.col3 {
+  width: 33.33%;
+}
+
+.col4 {
+  width: 25%;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .col1-sp {
+    width: 100%;
+  }
+
+  .col2-sp {
+    width: 50%;
+  }
+
+  .col3-sp {
+    width: 33.33%;
+  }
+
+  .col4-sp {
+    width: 25%;
+  }
+}
+
+/* .btn-section{
+    padding: 50px 0;
+} */
+/* ===============================
+button Start
+=============================== */
+.btn {
+  display: inline-block;
+}
+
+.btn a {
+  text-align: center;
+}
+
+.btn-border-blue-sm {
+  border: 0.5px solid var(--boder-blue);
+}
+
+.btn-border-blue-sm a {
+  color: var(--mid-blue);
+}
+
+.btn-border-green-sm {
+  border: 0.5px solid var(--boder-green);
+}
+
+.btn-border-green-sm a {
+  color: var(--green-color);
+}
+
+.btn-border-red-sm {
+  border: 0.5px solid var(--boder-red);
+}
+
+.btn-border-red-sm a {
+  color: var(--red-color);
+}
+
+.btn-border-blue-sm a,
+.btn-border-green-sm a,
+.btn-border-red-sm a {
+  font-size: 1.1rem;
+  line-height: 1.875;
+  padding: 0px 15px;
+}
+
+.btn-curve {
+  border-radius: 50px;
+}
+
+.btn-border-blue {
+  border: 2px solid var(--blue-color);
+}
+
+.btn-border-green {
+  border: 2px solid var(--green-color);
+}
+
+.btn-border-red {
+  border: 2px solid var(--red-color);
+}
+
+.btn-border-yellow {
+  border: 2px solid var(--yellow-color);
+}
+
+.btn-border-org {
+  border: 2px solid var(--border-org);
+}
+
+.btn-border-blue a,
+.btn-border-green a,
+.btn-border-red a,
+.btn-border-yellow a,
+.btn-border-org a {
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 5px 16px;
+}
+
+.btn-border-org a {
+  color: var(--center-org);
+}
+
+.btn-border-org:hover {
+  border: 2px solid var(--hover-org);
+}
+
+.btn-border-org a:hover {
+  color: var(--hover-org);
+}
+
+.btn-border-blue a {
+  color: var(--blue-color);
+}
+
+.btn-border-blue:hover {
+  border: 2px solid var(--hover-blue);
+}
+
+.btn-border-blue a:hover {
+  color: var(--hover-blue);
+}
+
+.btn-border-green a {
+  color: var(--green-color);
+}
+
+.btn-border-green:hover {
+  border: 2px solid var(--hover-green);
+}
+
+.btn-border-green a:hover {
+  color: var(--light-green);
+}
+
+.btn-border-red a {
+  color: var(--red-color);
+}
+
+.btn-border-red:hover {
+  border: 2px solid var(--hover-red);
+}
+
+.btn-border-red a:hover {
+  color: var(--hover-red);
+}
+
+.btn-border-yellow a {
+  color: var(--yellow-color);
+}
+
+.btn-border-yellow:hover {
+  border: 2px solid var(--hover-yellow);
+}
+
+.btn-border-yellow a:hover {
+  color: var(--hover-yellow);
+}
+
+.btn-light-green:hover {
+  background: var(--hover-bg-green);
+}
+
+.btn-long {
+  width: 374px;
+}
+
+.btn-long a {
+  /* padding: 1px 50px; */
+}
+
+.btn-md a {
+  font-size: 20px;
+  padding: 6px 20px;
+}
+
+.btn-lg a {
+  font-size: 2.5rem;
+  padding: 8px 21px;
+}
+
+.btn-lg-25 a {
+  font-size: 2.5rem;
+}
+
+.btn-light-green {
+  background: var(--light-green);
+}
+
+.btn-light-green a {
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+  line-height: 1.48;
+  padding: 13px 24px 12px 24px;
+  color: var(--w-color);
+}
+
+.btn-mid-blue {
+  background: var(--mid-blue);
+}
+
+.btn-dark-gray {
+  background: var(--dark-gray);
+}
+
+.btn-mid-blue a,
+.btn-dark-gray a {
+  text-align: left;
+  font-size: 2.5rem;
+  line-height: 1.48;
+  padding: 10px 60px 7px;
+}
+
+.btn-dark-gray {
+  border: 2px solid var(--dark-gray);
+}
+
+.btn-dark-gray a {
+  color: var(--w-color);
+}
+
+.btn-dark-gray:hover {
+  background: var(--w-color);
+}
+
+.btn-dark-gray a:hover {
+  color: var(--dark-gray);
+}
+
+.btn-mid-blue {
+  border: 2px solid var(--mid-blue);
+}
+
+.btn-mid-blue a {
+  color: var(--w-color);
+}
+
+.btn-mid-blue:hover {
+  background: var(--w-color);
+}
+
+.btn-mid-blue a:hover {
+  color: var(--hover-blue);
+}
+
+.btn-search-blue {
+  background-color: var(--blue-color);
+  position: relative;
+  float: right;
+  margin-top: 10px;
+}
+
+.btn-search-blue a {
+  text-align: left;
+  font-size: 2.5rem;
+  line-height: 1.48;
+  padding: 9px 87px 6px 47px;
+  color: var(--w-color);
+}
+
+.btn-search-blue::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translate(-15%, -50%);
+  background: url(../img/common/btn_search.png) center no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.btn-search-blue:hover {
+  background-color: var(--hover-bg-blue);
+}
+
+.btn-border-arrow {
+  border: 1px solid var(--border-gray);
+  border-left: 15px solid var(--top-dark-blue);
+  position: relative;
+}
+
+.btn-border-arrow a {
+  font-size: 2rem;
+  line-height: 2.25;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  color: var(--top-dark-blue);
+}
+
+.btn-border-arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(-2%, -50%);
+  background: url(../img/common/btn_arrow.png) center no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.btn-border-arrow:hover {
+  background-color: var(--hover-bg-gray);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-border-blue-sm a,
+  .btn-border-green-sm a,
+  .btn-border-red-sm a {
+    font-size: 1rem;
+    line-height: 1.05;
+    padding: 5px 12px;
+  }
+
+  .btn-border-blue a,
+  .btn-border-green a,
+  .btn-border-red a,
+  .btn-border-yellow a,
+  .btn-border-org a {
+    font-size: 1.3rem;
+    padding: 3px 12px;
+  }
+
+  .btn-long {
+    width: auto;
+    max-width: 250px;
+  }
+
+  .btn-lg a {
+    font-size: 1.5rem;
+  }
+
+  .btn-lg-25 a {
+    font-size: 1.8rem;
+  }
+
+  .btn-light-green a {
+    font-size: 1.5rem;
+    padding: 7px 12px 6px 12px;
+  }
+
+  .btn-mid-blue a,
+  .btn-dark-gray a {
+    font-size: 1.5rem;
+    padding: 5px 30px 3px;
+  }
+
+  .btn-search-blue {
+    margin-top: 5px;
+  }
+
+  .btn-search-blue a {
+    font-size: 1.5rem;
+    padding: 6px 60px 5px 25px;
+  }
+
+  .btn-border-arrow a {
+    font-size: 1.5rem;
+    /* padding: 0px 140px 0px 12px; */
+  }
+
+  .btn-search-blue::after {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ===============================
+button End
+=============================== */
+
+/* ============================
+Card
+=============================*/
+.grid-one {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.justify-end {
+  justify-self: end;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.align-end {
+  align-self: end;
+}
+
+.txt-end {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.txt-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.imgr-end {
+  display: grid;
+  justify-content: end;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 768px) {
+  .grid-two-pc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-five {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.dgrid {
+  display: grid;
+}
+
+@media screen and (max-width: 950px) {
+  .grid-950 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-one-sp {
+    display: block !important;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-two-sp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-three-sp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-col170 {
+    grid-template-columns: auto 170px;
+  }
+}
+
+/* .card-inner {
+  height: 100%;
+} */
+.card-inner-gray {
+  background: var(--gray-color);
+}
+
+.card-inner-red {
+  background: rgba(204, 59, 76, 0.1);
+}
+
+.card-inner-blue {
+  background: rgba(44, 135, 201, 0.1);
+}
+
+.card-inner-green {
+  background: rgba(13, 155, 40, 0.1);
+}
+
+.card-inner-yellow {
+  background: rgba(211, 183, 64, 0.1);
+}
+
+.card-title {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  line-height: 1.625;
+  margin-bottom: 5px;
+}
+
+.card-title-one {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.625;
+  color: var(--blue-color);
+}
+
+.card-title-two,
+.card-ttl-three,
+.card-ttl-green {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.7;
+  letter-spacing: 1.25px;
+}
+
+.card-ttl-three {
+  color: var(--txt-dark-blue);
+}
+
+.card-ttl-green {
+  color: var(--green-color);
+}
+
+@media screen and (max-width: 768px) {
+  .card-title-one {
+    font-size: 1.6rem;
+  }
+
+  .card-title-two,
+  .card-ttl-three,
+  .card-ttl-green {
+    font-size: 1.8rem;
+  }
+}
+
+.card-img {
+  position: relative;
+  /*align-self: center;*/
+}
+.card-item.card-inner .card-img {
+  width: 50%;
+}
+
+.card-img-two img {
+  width: 100%;
+}
+
+.card-img img {
+  width: 100%;
+  /*20230131追加*/
+  height: 160px;
+  object-fit: cover;
+}
+/*20230202追加*/
+
+.card-img-small img {
+  width: 50%;
+  height: 160px;
+  object-fit: cover;
+  margin-left: 50%;
+}
+.xraycy-facilities.fac-full-img img {
+  margin: 0 auto;
+}
+.fac-img-txt-c {
+  margin: 0 auto;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  letter-spacing: 0;
+  padding: 5px;
+  width: 80%;
+}
+
+/*20230202追加*/
+
+@media screen and (max-width: 768px) and (min-width: 400px) {
+  .card-img-sp {
+    padding: 14.5px 0 14px 13.5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img-padding-400 {
+    padding: 10px 0 10px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-img-sp {
+    padding-left: 13px;
+  }
+}
+
+.card-right {
+  display: grid;
+}
+
+.card-body {
+  display: grid;
+  /* position: relative;
+  min-height: 115px; */
+}
+
+.card-body-one {
+  display: grid;
+  grid-template-columns: 350px auto;
+  padding-bottom: 24px;
+}
+
+.card-body-three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .card-wrap-two .card-img {
+    padding: 14.5px 0 14px 13.5px;
+  }
+
+  .card-wrap-two .card-body {
+    padding: 14px 0;
+  }
+
+  .card-body-one {
+    display: block;
+    padding-bottom: 5px;
+  }
+  /*20230201*/
+  .card-img {
+    position: relative;
+    align-self: center;
+  }
+  .card-item.card-inner {
+    display: block !important;
+  }
+  .card-item.card-inner .card-img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /*20230201end*/
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: auto 220px;
+  gap: 5px;
+  align-content: end;
+}
+
+@media screen and (max-width: 900px) {
+  .card-footer {
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+.card-footer-txt {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.78;
+  letter-spacing: 0.8px;
+}
+
+.card-txt {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  line-height: 2.25;
+  letter-spacing: 1px;
+}
+
+.card-txt-ttl {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.card-txt-one {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.75;
+  letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-txt {
+    font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+    font-size: 1.5rem;
+    padding-left: 10.5px;
+    line-height: 1.625;
+  }
+
+  .card-txt-ttl {
+    font-size: 1.4rem;
+  }
+
+  .card-txt-one {
+    font-size: 1.5rem;
+  }
+
+  .card-txt-one.txt-one-15 {
+    font-size: 1.5rem;
+  }
+
+  .card-footer-txt {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+}
+
+.card-span-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0;
+}
+
+.card-btn-gp .btn-item {
+  margin-bottom: 3px;
+}
+
+.card-btn-gp .btn-item .btn a {
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card-btn-gp .btn-item {
+    margin-left: 7px;
+  }
+
+  .card-span-txt {
+    font-size: 1.2rem;
+  }
+}
+
+.btn-item .btn {
+  display: block;
+}
+
+.card-btn {
+  text-align: right;
+  align-self: end;
+  /* position: absolute;
+  right: 3px;
+  bottom: 16px; */
+}
+
+.card-btn .btn-mrb {
+  margin: 0 7px 7px 0;
+}
+
+/*20230201*/
+.btn .btn-border-red-sm.en .btn .btn-border-green-sm.en .btn .btn-border-blue-sm.en {
+  padding: 0;
+}
+/*20230201 end*/
+
+@media screen and (max-width: 768px) {
+  .card-btn .btn-mrb {
+    margin-bottom: 0;
+  }
+}
+
+/* Card padding */
+/* .padding12 {
+  padding: 12px;
+}
+
+.padding1218 {
+  padding: 0 12px 18px;
+}
+
+.padding1821 {
+  padding: 0 18px 0 21px;
+}
+
+.padding2115 {
+  padding: 10px 15px 17px 21px;
+}
+
+.padding514 {
+  padding: 0 5px 14px 0;
+}
+
+.padding1622 {
+  padding: 22px 22px 36px 16px;
+}
+
+.padding16 {
+  padding: 15px 16px;
+}
+
+.padding1422 {
+  padding: 0 22px 0 14px;
+} */
+
+@media screen and (max-width: 768px) {
+  .padding0-sp {
+    padding: 0;
+  }
+
+  .p10-sp {
+    padding: 10px;
+  }
+
+  .p18-sp {
+    padding: 15px;
+  }
+
+  .p10r0-sp {
+    padding: 10px 0 10px 10px;
+  }
+}
+
+.letter-space0 {
+  letter-spacing: 0;
+}
+
+.letter-space-40 {
+  letter-spacing: -0.56px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex .card-item {
+  width: 33.33%;
+}
+.cg-20 {
+  column-gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .d-flex {
+    display: flex;
+  }
+
+  .d-flex .card-item {
+    width: 100%;
+  }
+}
+
+/* ============================
+Card End
+=============================*/
+/* Border Start */
+.dotted-border-top {
+  border-top: 1px dotted #707070;
+}
+.dotted-border-bottom {
+  border-bottom: 1px dotted #707070;
+}
+/* Border End */
+/* BreadCrumb Start */
+#breadcrumb {
+  margin-top: 100px;
+}
+
+#breadcrumb .crumb-in {
+  padding: 27px 0;
+  font-family: "こぶりなゴシック Std W6";
+  border-top: 1px dotted #707070;
+  border-bottom: 1px dotted #707070;
+  /* text-align: right; */
+}
+
+#breadcrumb .crumb-in li {
+  position: relative;
+  display: inline;
+  /* margin-right: 5px; */
+}
+#breadcrumb .crumb-in li:last-child {
+  margin-right: 0;
+}
+
+#breadcrumb .crumb-in li:first-child a {
+  top: 2px;
+}
+
+#breadcrumb .crumb-in li a {
+  position: relative;
+  display: inline-block;
+  padding-right: 35px;
+  font-size: 20px;
+  line-height: 1.75;
+  transition: all 0.3s;
+  color: #0052b2;
+}
+#breadcrumb .crumb-in li:last-child a {
+  padding-right: 0;
+}
+
+#breadcrumb .crumb-in li:after {
+  position: absolute;
+  top: 56%;
+  right: 11px;
+  width: 20px;
+  height: 27px;
+  content: "";
+  transform: translateY(-50%);
+  color: #a1a1a1;
+  background: url(../img/common/bread_crumb_arr.png) no-repeat center;
+}
+
+#breadcrumb .crumb-in li .current {
+  color: #0052b2;
+}
+
+#breadcrumb .crumb-in li br {
+  display: none;
+}
+
+#breadcrumb .crumb-in li:last-child:after {
+  display: none;
+  content: "";
+}
+
+#breadcrumb .crumb-in li a:hover {
+  text-decoration: none;
+}
+
+#breadcrumb .crumb-in li br {
+  display: none;
+}
+
+@media screen and (min-width: 0\0) {
+  #breadcrumb .crumb-in li:after {
+    top: 33%;
+
+    transform: translateY(0%);
+  }
+}
+
+/*20230201追加*/
+.fz-hiraud-kakugo-stdw3 ul {
+  margin: 10px 0 10px 30px;
+}
+.fz-hiraud-kakugo-stdw3 ol {
+  margin: 10px 0 10px 30px;
+}
+.fz-hiraud-kakugo-stdw3 ul li {
+  list-style: disc;
+}
+
+/*20230201追加ここまで*/
+
+@media screen and (max-width: 768px) {
+  #breadcrumb {
+    display: none;
+  }
+  .fz-hiraud-kakugo-stdw3 ul {
+    font-size: 1.5rem;
+    margin: 10px 0 10px 20px;
+  }
+  .fz-hiraud-kakugo-stdw3 ol {
+    font-size: 1.5rem;
+    margin: 10px 0 10px 20px;
+  }
+}
+
+/* BreadCrumb End */
+
+/* Topic List Start */
+
+.topic-section {
+  padding: 50px 0 100px;
+}
+
+.topic-section .grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.topic-section .grid-container .grid-item {
+  border-bottom: 1px dotted var(--boder--topic-blue);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.topic-section .grid-container .grid-item:nth-child(even) {
+  grid-column: 2 / 5;
+}
+
+/* Topic List End */
+
+/* Icon List Start */
+
+.icon-list-section {
+  /* padding: 40px 0 60px; */
+}
+/*20230202*/
+.icon-list-section-l {
+  width: 49%;
+  padding-right: 1%;
+}
+.icon-list-section-r {
+  width: 49%;
+  padding-left: 1%;
+}
+/*20230202 end*/
+
+.icon-list-section ul {
+}
+
+.icon-list-section ul li {
+  border-top: 1px solid var(--boder-blue);
+  padding: 10px 0 10px 40px;
+  position: relative;
+}
+.icon-list-section.no-border ul li {
+  border: none;
+  padding: 5px 0 5px 40px;
+}
+.icon-list-section.no-border ul li a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.icon-list-section ul li:last-child {
+  border-bottom: 1px solid var(--boder-blue);
+}
+.icon-list-section.no-border ul li:last-child {
+  border-bottom: none;
+}
+
+.icon-list-section ul li::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "";
+  /* transform: translateY(-50%); */
+  background: url(../img/common/list_icon_blue.png) no-repeat center;
+}
+.icon-list-section.no-border ul li::before {
+  top: 7px;
+}
+
+.icon-list-section.year-list.green ul li::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "";
+  background: url(../img/common/list_icon_darkgreen.png) no-repeat center;
+}
+.icon-list-section.year-list.green ul li a {
+  padding-left: 10px;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.icon-list-section.year-list.green ul li {
+  border-top: 1px solid #1c9a30;
+}
+.icon-list-section.year-list.green ul li:last-child {
+  border-bottom: 1px solid #1c9a30;
+  /* border-bottom: none; */
+}
+.icon-list-section ul li a {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.year-and-list {
+  /* padding: 40px 0 80px; */
+}
+
+.year-and-list .yl-container {
+  width: 100%;
+}
+.year-and-list .yl-container .yl-row {
+  display: flex;
+  padding: 30px 0;
+  background-image: linear-gradient(to right, var(--border-gray) 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 3px 1px;
+  background-repeat: repeat-x;
+}
+.year-and-list .yl-container .yl-row .yl-col:first-child {
+  width: 22%;
+}
+.year-and-list .yl-container .yl-row .yl-col:last-child {
+  width: 78%;
+}
+.year-and-list .yl-container .yl-row .yl-col {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: var(--txt-dark-blue);
+  text-align: left;
+}
+
+.year-and-list .grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 60px;
+}
+
+.year-and-list .grid-container .grid-item {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: var(--txt-dark-blue);
+  text-align: left;
+}
+
+.year-and-list .grid-container .grid-item:nth-child(even) {
+  grid-column: 2 / 5;
+}
+
+/*20230131追加*/
+.icon-list-section.green ul li {
+  border-top: 1px solid var(--green-color);
+  padding: 10px 0 10px 40px;
+  position: relative;
+}
+.icon-list-section.green ul li:last-child {
+  border-bottom: 1px solid var(--green-color);
+}
+.icon-list-section.red ul li {
+  border-top: 1px solid var(--red-color);
+  padding: 10px 0 10px 40px;
+  position: relative;
+}
+.icon-list-section.red ul li:last-child {
+  border-bottom: 1px solid var(--red-color);
+}
+.icon-list-section.red ul li::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "";
+  /* transform: translateY(-50%); */
+  background: url(../img/common/list_icon_border.png) no-repeat center;
+}
+.icon-list-section.green ul li::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "";
+  /* transform: translateY(-50%); */
+  background: url(../img/common/list_icon_darkgreen.png) no-repeat center;
+}
+/*20230131追加ここまで*/
+
+@media screen and (max-width: 768px) {
+  .year-and-list .yl-container .yl-row {
+    flex-wrap: wrap;
+    padding: 15px 0;
+    gap: 10px 0;
+  }
+  .year-and-list .yl-container .yl-row .yl-col:first-child {
+    width: 100%;
+  }
+  .year-and-list .yl-container .yl-row .yl-col:last-child {
+    width: 100%;
+  }
+  .year-and-list .yl-container .yl-row .yl-col {
+    font-size: 1.8rem;
+  }
+
+  .year-and-list .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 5px;
+  }
+
+  .year-and-list .grid-container .grid-item:nth-child(even) {
+    grid-column: 2 / 4;
+  }
+  .icon-list-section.year-list.green ul li::before {
+    top: 14px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  .icon-list-section.year-list.green ul li a {
+    padding-left: 0;
+  }
+}
+
+.icon-list-section.icon-list-green {
+  padding: 0;
+}
+
+.icon-list-section.icon-list-green ul li {
+  border: 0;
+  padding: 5px 0 5px 40px;
+}
+
+.icon-list-section.icon-list-green ul li:last-child {
+  border-bottom: 0;
+}
+
+.icon-list-section.icon-list-green ul li::before {
+  top: 8px;
+  background: url(../img/common/list_icon_green.png) no-repeat center;
+}
+
+.icon-list-section.year-list ul li {
+  padding: 14px 0 10px 40px;
+}
+
+.icon-list-section.year-list ul li a {
+  font-size: 2rem;
+  line-height: 1.875;
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+}
+
+.icon-list-section.year-list ul li::before {
+  top: 16px;
+  width: 24px;
+  height: 24px;
+  background: url(../img/common/list_icon_blue_sm.png) no-repeat center;
+}
+
+.icon-list-section.year-list-25 .h4-ttl {
+  margin-bottom: 15px;
+}
+
+.icon-list-section.year-list-25 ul li {
+  padding: 8px 0 12px 40px;
+}
+
+.icon-list-section.year-list-25 ul li a {
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: var(--txt-dark-blue);
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+}
+
+.icon-list-section.year-list-25.f-hiragi ul li a {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+}
+
+.icon-list-section.year-list-27 ul li a {
+  font-size: 2.7rem;
+  line-height: 1.667;
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+}
+
+.list-col-2 ul {
+  column-count: 2;
+  gap: 0 50px;
+}
+
+.list-col-4 ul {
+  column-count: 4;
+  gap: 0;
+}
+
+.list-col-2 ul li,
+.list-col-4 ul li {
+  -webkit-column-break-inside: avoid;
+  /* Chrome, Safari, Opera */
+  page-break-inside: avoid;
+  /* Firefox */
+  break-inside: avoid;
+  /* IE 10+ */
+}
+
+.border-bottom-blue {
+  border-bottom: 1px solid var(--boder-blue);
+}
+
+@media screen and (max-width: 768px) {
+  .icon-list-section.year-list-25 .h4-ttl {
+    margin-bottom: 10px;
+  }
+
+  .list-col-2 ul {
+    column-count: 1;
+    gap: 0;
+  }
+
+  .border-bottom-blue {
+    border-bottom: 0px;
+  }
+}
+
+.icon-list-section.list-col-4 {
+  padding: 0;
+}
+
+.icon-list-section.list-col-4 ul li {
+  border: 0;
+  padding: 5px 0 5px 30px;
+}
+
+.icon-list-section.list-col-4 ul li:last-child {
+  border-bottom: 0;
+}
+
+.icon-list-section.list-col-4 ul li::before {
+  top: 8px;
+  background: url(../img/common/list_icon_border.png) no-repeat center;
+}
+
+.rp-link {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px 50px;
+  align-items: end;
+}
+
+.rp-link .icon-list-section.list-col-4 {
+  grid-column: 2 / 5;
+}
+
+@media screen and (max-width: 840px) {
+  .list-col-4 ul {
+    column-count: 2;
+    gap: 0 5px;
+  }
+
+  .rp-link {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    align-items: center;
+  }
+
+  .rp-link .icon-list-section.list-col-4 {
+    grid-column: 2 / 4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rp-link {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .rp-link .icon-list-section.list-col-4 {
+    grid-column: 2 / 3;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .rp-link {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .rp-link .rp-img {
+    grid-column: 1/3;
+  }
+
+  .rp-link .icon-list-section.list-col-4 {
+    grid-column: 1/3;
+  }
+}
+
+/* list's font size sp */
+@media screen and (max-width: 768px) {
+  .icon-list-section ul li a {
+    font-size: 1.5rem;
+  }
+
+  .year-and-list .grid-container .grid-item {
+    font-size: 1.8rem;
+  }
+
+  .icon-list-section.year-list-25 ul li a {
+    font-size: 1.8rem;
+  }
+
+  .icon-list-section.year-list-27 ul li a {
+    font-size: 2rem;
+  }
+
+  .icon-list-section ul li,
+  .icon-list-section.list-col-4 ul li {
+    padding: 5px 0 5px 30px;
+  }
+  .icon-list-section.no-border ul li {
+    padding: 0px 0px 0px 30px;
+  }
+  .icon-list-section.no-border ul li::before {
+    top: 3px;
+  }
+
+  .icon-list-section.icon-list-green ul li {
+    padding: 0 0 3px 30px;
+  }
+
+  .icon-list-section.year-list-25 ul li {
+    padding: 5px 0 8px 30px;
+  }
+
+  .icon-list-section ul li::before {
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+
+  .icon-list-section.year-list ul li::before {
+    top: 14px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+
+  .icon-list-section.icon-list-green ul li::before {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    top: 10%;
+    transform: translateY(0);
+  }
+
+  .icon-list-section.year-list ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+.icon-list-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.icon-list-grid ul li {
+  border-top: 1px solid var(--boder-blue);
+  padding: 10px 0 10px 40px;
+  position: relative;
+}
+.icon-list-grid ul li::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "";
+  /* transform: translateY(-50%); */
+  background: url(../img/common/list_icon_blue.png) no-repeat center;
+}
+.icon-list-grid ul li:last-child {
+  border-bottom: 1px solid var(--boder-blue);
+}
+.icon-list-grid ul li a {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .icon-list-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .icon-list-grid ul li {
+    padding: 5px 0 5px 30px;
+  }
+  .icon-list-grid ul li::before {
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  .icon-list-grid ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Icon List End */
+
+/* Underline List Start */
+.underline-list ul {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.underline-list ul li {
+  margin-bottom: 2px;
+}
+
+.underline-list ul li a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .underline-list ul {
+    font-size: 1.5rem;
+  }
+}
+
+/* Underline List End */
+
+/* Simple List Start */
+.simple-list ul {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .simple-list ul {
+    font-size: 1.5rem;
+  }
+}
+
+/* Simple List End */
+
+/* Order List Start */
+.order-list ol {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .order-list ol {
+    font-size: 1.5rem;
+  }
+}
+
+/* Order List End */
+
+/* Disc List Start */
+.disc-list li:before {
+  content: "•";
+  font-size: 20pt;
+}
+
+.grupu-box .disc-list li:before {
+  content: none;
+}
+.grupu-box .disc-list li {
+  /*text-decoration: underline;*/
+}
+.disc-list li {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.disc-list li h5 {
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  color: var(--b-color);
+}
+
+@media screen and (max-width: 768px) {
+  .disc-list li:before {
+    content: "•";
+    font-size: 15pt;
+  }
+
+  .disc-list li,
+  .disc-list li h5 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Disc List End */
+
+/* h2 main-ttl Start */
+.main-ttl {
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-ttl span {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.main-ttl-sm {
+  font-size: 3rem;
+  line-height: 1.2;
+  /* border-bottom: 1px dotted var(--border-gray); */
+  background-image: linear-gradient(to right, var(--border-gray) 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 3px 1px;
+  background-repeat: repeat-x;
+}
+
+.main-ttl-lg {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-top: 12px;
+}
+.main-ttl .ttl-lg-one {
+  font-size: 4rem;
+  text-align: left;
+  border-bottom: 1px solid var(--b-color);
+}
+
+.main-ttl .main-ttl-txt {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.main-ttl-eg {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: var(--txt-dark-blue);
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .main-ttl {
+    /* margin-bottom: 30px; */
+    font-size: 3.5rem;
+  }
+
+  .main-ttl-sm {
+    font-size: 2rem;
+  }
+
+  .main-ttl-lg {
+    font-size: 2.5rem;
+  }
+
+  .main-ttl .ttl-lg-one {
+    font-size: 2.5rem;
+  }
+
+  .main-ttl .main-ttl-txt {
+    font-size: 1.4rem;
+  }
+  .main-ttl-eg {
+    font-size: 1.5rem;
+  }
+}
+
+/* mt40 mb80 mt20-sp mb40-sp */
+.mg-one {
+  margin: 40px 0 80px;
+}
+
+/* mt20 mb80 */
+.mg-two {
+  margin: 15px 0 100px;
+}
+
+.mg-three {
+  margin: 15px 0 60px;
+}
+.mg-four {
+  margin: 90px 0 40px;
+}
+@media screen and (max-width: 768px) {
+  .mg-one {
+    margin: 20px 0 40px;
+  }
+
+  .mg-two {
+    margin: 7.5px 0 50px;
+  }
+
+  .mg-three {
+    margin: 8px 0 30px;
+  }
+}
+
+/* h2 main-ttl End */
+
+/* h3 sub-ttl Start */
+.sub-ttl {
+  background-color: var(--gray-color);
+  font-size: 3rem;
+  line-height: 1.58;
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  padding: 6px 0 4px 30px;
+  position: relative;
+  border-left: 36px solid var(--top-dark-blue);
+  margin-bottom: 30px;
+}
+
+.sub-ttl::before {
+  background: none;
+  border-left: 15px solid var(--w-color);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sub-ttl-mid-blue {
+  border-left: 36px solid var(--mid-blue);
+}
+
+.sub-ttl-blue {
+  border-left: 36px solid var(--blue-color);
+}
+
+.sub-ttl-green {
+  border-left: 36px solid var(--green-color);
+}
+
+.sub-ttl-red {
+  border-left: 36px solid var(--red-color);
+}
+
+.sub-ttl-yellow {
+  border-left: 36px solid var(--yellow-color);
+}
+.sub-ttl-orange {
+  border-left: 36px solid #f78009;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-ttl {
+    font-size: 2rem;
+    padding: 5px 0 3px 15px;
+    border-left-width: 18px;
+    margin-bottom: 20px;
+  }
+  .sub-ttl::before {
+    border-left-width: 7.5px;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  .fac-img-l {
+    margin: 10px 0 10px 5px;
+  }
+  .fac-img-r {
+    margin: 10px 0 10px 5px;
+  }
+}
+
+/* h3 sub-ttl End */
+
+/* h4 h4-ttl Start */
+.h4-ttl {
+  font-size: 2.5rem;
+  /* letter-spacing: 1.25px; */
+  line-height: 1.7;
+  color: var(--txt-dark-blue);
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  margin-bottom: 18px;
+}
+.h4-ttl-span {
+  line-height: 1.5;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .h4-ttl {
+    font-size: 1.8rem;
+  }
+  .h4-ttl-span {
+    font-size: 1.5rem;
+  }
+}
+
+/* h4 h4-ttl End */
+
+/* h5 h5-ttl Start */
+.h5-ttl {
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  padding: 0;
+  margin-bottom: 18px;
+}
+.contact-box-ttl {
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.h5-ttl.w-476 {
+  width: 476px;
+}
+.contact-box-ttl.w-476 {
+  width: 476px;
+}
+
+.h5-ttl.h5-ttl-org {
+  color: var(--top-org);
+  border: 1px solid var(--border-h5-org);
+  background-color: transparent;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.625;
+  letter-spacing: 0;
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .h5-ttl {
+    font-size: 1.3rem;
+    padding: 5px;
+  }
+  .contact-box-ttl {
+    font-size: 1.3rem;
+    padding: 5px;
+  }
+
+  .h5-ttl.w-476 {
+    width: auto;
+    padding: 5px 20px 5px 5px;
+  }
+  .contact-box-ttl.w-476 {
+    width: auto;
+    padding: 0 20px 0 5px;
+  }
+
+  .h5-ttl.h5-ttl-org {
+    font-size: 1.5rem;
+    padding: 0 5px;
+  }
+}
+
+/* h5 h5-ttl End */
+
+/* sub-sub-ttl Start */
+.sub-sub-ttl {
+  font-size: 3rem;
+  padding: 17px 30px;
+  margin-bottom: 25px;
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-weight: 400;
+}
+
+.sub-sub-ttl.ttl-red {
+  background: var(--bg-red);
+  color: var(--red-color);
+}
+
+.sub-sub-ttl.ttl-blue {
+  background: var(--bg-blue);
+  color: var(--blue-color);
+}
+
+.sub-sub-ttl.ttl-green {
+  background: var(--bg-green);
+  color: var(--green-color);
+  /* font-family: "ヒラギノUD角ゴ Std W6", sans-serif; */
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+}
+.sub-sub-ttl.ttl-org {
+  background: var(--bg-org);
+  color: var(--org-color);
+  /* font-family: "ヒラギノUD角ゴ Std W6", sans-serif; */
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-sub-ttl {
+    font-size: 2rem;
+    padding: 10px 15px 8px 15px;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+  }
+}
+
+.sub-ttl-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 12px;
+}
+
+.ttl-grid-right {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  justify-self: end;
+  text-align: right;
+  text-decoration: underline;
+  padding-right: 22px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-ttl-grid {
+    display: block;
+  }
+
+  .ttl-grid-right {
+    font-size: 1.2rem;
+    padding-right: 10px;
+  }
+}
+
+/* sub-sub-ttl End */
+
+/* table Start */
+.time-table {
+  width: 100%;
+}
+
+.time-table tr th {
+  text-align: left;
+  background-color: var(--mid-blue);
+  color: var(--w-color);
+  font-size: 3rem;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  padding: 5px 0 5px 20px;
+}
+
+.time-table tr td {
+  /* border-bottom: 1px dotted var(--border-gray); */
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.3;
+  background-color: var(--bg-soft-w);
+  padding: 20px 20px;
+  background-image: linear-gradient(to right, var(--border-gray) 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 3px 1px;
+  background-repeat: repeat-x;
+}
+
+.time-table tr td:first-child {
+  background-color: var(--bg-gray);
+  text-align: right;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.time-table.topic-table tr td {
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.75;
+  background-image: linear-gradient(to right, var(--border-dash-blue) 33%, rgba(255, 255, 255, 0) 0%);
+  background-size: 4px 1px;
+}
+
+.time-table.topic-table tr td:first-child {
+  text-align: center;
+  width: 20%;
+}
+
+.time-table.topic-table tr td a {
+  text-decoration: underline;
+}
+
+.time-table.table-col-3 tr th {
+  background: var(--bg-th-blue-80);
+  color: var(--b-color);
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.3;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+.time-table.table-col-3 tr th:nth-child(2) {
+  background: var(--bg-th-blue-60);
+}
+
+.time-table.table-col-3 tr td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 10px;
+}
+
+.time-table.table-col-3 tr td:first-child {
+  width: 55%;
+}
+
+.time-table.table-col-3 tr td:nth-child(2) {
+  background-color: var(--bg-mid-w);
+}
+
+.time-table.table-col-3 tr td:last-child {
+  background-color: var(--bg-td-gray-49);
+  text-align: center;
+  width: 13%;
+}
+
+.time-table.table-col-3.table-wd-cg tr td:first-child {
+  width: 7.6%;
+}
+
+.time-table.table-col-3.table-wd-cg tr td:last-child {
+  width: 26.4%;
+}
+
+.time-table.table-col-4 tr th {
+  background: var(--bg-th-blue-35);
+  color: var(--b-color);
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  vertical-align: middle;
+}
+
+.time-table.table-col-4 tr th:nth-child(even) {
+  background: var(--bg-th-blue-25);
+}
+
+.time-table.table-col-4 tr th.th-main {
+  text-align: left;
+  background-color: var(--mid-blue);
+  color: var(--w-color);
+  font-size: 3rem;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  padding: 5px 0 5px 20px;
+}
+
+.time-table.table-col-4 tr td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  padding: 5px;
+  word-spacing: 9999px;
+  letter-spacing: -0.5px;
+}
+
+.time-table.table-col-4 tr td:nth-child(odd) {
+  background-color: var(--bg-td-gray-49);
+}
+
+.time-table.table-col-4 tr td:nth-child(even) {
+  background-color: var(--bg-td-w-49);
+}
+
+.time-table.table-col-4 tr td:nth-child(1) {
+  width: 30.8%;
+}
+
+.time-table.table-col-4 tr td:nth-child(2) {
+  width: 36.9%;
+}
+
+.time-table.table-col-4 tr td:nth-child(3) {
+  width: 13.2%;
+}
+
+.time-table.table-col-4 tr td:nth-child(4) {
+  width: 19.3%;
+}
+
+.time-table.table-col-5 tr th {
+  font-size: 1.4rem;
+  line-height: 1.71;
+}
+
+.time-table.table-col-5 tr th.th-main {
+  font-family: "Source Han Sans JP Bold";
+  font-size: 1.9rem;
+  line-height: 1.63;
+  font-weight: 700;
+}
+
+.time-table.table-col-5 tr td {
+  padding: 0;
+  word-spacing: 0;
+  height: 52px;
+}
+
+.time-table.table-col-5 tr td:nth-child(1) {
+  width: 13.5%;
+}
+
+.time-table.table-col-5 tr td:nth-child(2) {
+  width: 14.7%;
+}
+
+.time-table.table-col-5 tr td:nth-child(3) {
+  width: 19.9%;
+}
+
+.time-table.table-col-5 tr th:nth-child(4) {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+}
+
+.time-table.table-col-5 tr td:nth-child(4) {
+  width: 10.6%;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+
+.time-table.table-col-5 tr td:nth-child(5) {
+  width: 41.3%;
+}
+
+.tb-scroll {
+  display: block;
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+}
+.tb-scroll::-webkit-scrollbar {
+  height: 0px;
+}
+
+.tb-w900 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .tb-w900 {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+.table-list-2 {
+  width: 100%;
+}
+
+.table-list-2 ul {
+  column-count: 2;
+  gap: 0 50px;
+}
+
+.table-list-2 ul li {
+  display: flex;
+  width: 100%;
+  -webkit-column-break-inside: avoid;
+  /* Chrome, Safari, Opera */
+  page-break-inside: avoid;
+  /* Firefox */
+  break-inside: avoid;
+  /* IE 10+ */
+}
+
+.table-list-2 ul li div {
+  float: left;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  padding: 20px 0;
+  background-image: linear-gradient(to right, var(--border-gray) 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 3px 1px;
+  background-repeat: repeat-x;
+}
+
+.table-list-2 ul li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.table-list-2 ul li div:first-child {
+  width: 80%;
+  background-color: var(--bg-td-gray-49);
+  text-align: right;
+  padding-right: 5px;
+}
+
+.table-list-2 ul li div:last-child {
+  width: 20%;
+  background-color: var(--bg-td-gray-25);
+  text-align: center;
+}
+
+@media screen and (max-width: 875px) {
+  .table-list-2 ul li div {
+    font-size: 1.5rem;
+  }
+}
+
+/* .table-list-2 tr {
+    width: 50%;
+}
+.table-list-2 tr{
+    column-count: 2;
+}
+.table-col-1 {
+    float: left;
+}
+.table-col-2 {
+    float: right;
+}
+
+.table-list-2 tr td{
+    padding: 25px 10px 25px 0;
+}
+.table-list-2 tr td:first-child{
+    width: 37%;
+}
+.table-list-2 tr td:last-child{
+    width: 13%;
+    text-align: center;
+} */
+
+@media screen and (max-width: 768px) {
+  .time-table tr th,
+  .time-table.table-col-4 tr th.th-main {
+    font-size: 2rem;
+    padding: 3px 0 3px 10px;
+  }
+
+  .time-table tr td {
+    font-size: 1.5rem;
+    padding: 10px 10px;
+  }
+
+  .time-table.table-col-3 tr th,
+  .time-table.table-col-4 tr th {
+    font-size: 1.5rem;
+    padding: 10px 0;
+  }
+
+  .time-table.table-col-3 tr td {
+    padding: 10px 5px;
+  }
+
+  .time-table.table-col-4 tr td {
+    font-size: 1.2rem;
+  }
+
+  .table-list-2 ul {
+    column-count: 1;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .time-table tr th {
+    font-size: 2rem;
+    padding: 3px 0 3px 6px;
+  }
+
+  .time-table tr td {
+    font-size: 1.5rem;
+    padding: 6px 6px;
+  }
+}
+
+/* vol-table */
+.vol-table h5 {
+  margin-bottom: 2px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+.vol-table-ttl {
+  margin-bottom: 2px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+
+.vol-table ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 0.25px solid var(--border-gray);
+}
+
+.vol-table ul li {
+  width: 25%;
+  text-align: center;
+  border: 0.25px solid var(--border-gray);
+  padding: 5px 0;
+  /* position: relative; */
+}
+
+.vol-table ul li img {
+  display: inline;
+  padding-right: 5px;
+}
+
+.vol-table ul li a {
+  color: var(--border-gray);
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .vol-table h5 {
+    font-size: 1.5rem;
+  }
+  .vol-table-ttl {
+    font-size: 1.5rem;
+  }
+
+  .vol-table ul li {
+    width: 50%;
+  }
+
+  .vol-table ul li a {
+    font-size: 1.2rem;
+  }
+
+  .time-table.topic-table tr td {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .vol-table ul li::before {
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -15%);
+  }
+}
+
+/* vol-table */
+
+/* table End */
+
+/* contact-box Start */
+.contact-box {
+  margin: 90px 0;
+  padding: 20px 0;
+  background-color: var(--bg-gray);
+}
+
+.contact-box .h5-ttl {
+  padding: 0 60px 0 30px;
+  margin-bottom: 5px;
+}
+.contact-box-ttl {
+  padding: 0 60px 0 30px;
+  margin-bottom: 5px;
+}
+.contact-box p {
+  padding-left: 40px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.contact-box p:first-of-type {
+  line-height: 2.25;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-box {
+    margin: 0;
+  }
+
+  .contact-box p {
+    padding: 0 15px;
+    font-size: 1.5rem;
+    line-height: 1.75 !important;
+  }
+}
+
+/* contact-box End */
+
+/* grupu-box Start */
+.grupu-box {
+  margin: 80px 0;
+  padding: 10px 22px 57px;
+}
+
+.grupu-box.m-50 {
+  margin: 50px 0 40px;
+}
+
+.grupu-box.box-red {
+  background: var(--bg-red);
+}
+
+.grupu-box.box-blue {
+  background: var(--bg-blue);
+}
+
+.grupu-box.box-green {
+  background: var(--bg-green);
+}
+.grupu-box.box-orange {
+  background: var(--bg-org);
+}
+
+.grupu-box .h5-ttl {
+  display: block;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  /* border-bottom: ; */
+  background-position: bottom;
+  background-size: 2px 1px;
+  background-repeat: repeat-x;
+}
+
+.grupu-box.box-red .h5-ttl {
+  color: var(--red-color);
+  background-image: linear-gradient(to right, var(--border-h5-red) 33%, rgba(255, 255, 255, 0) 0%);
+}
+
+.grupu-box.box-blue .h5-ttl {
+  color: var(--blue-color);
+  background-image: linear-gradient(to right, var(--border-dash-blue) 33%, rgba(255, 255, 255, 0) 0%);
+}
+
+.grupu-box.box-green .h5-ttl {
+  color: var(--green-color);
+  background-image: linear-gradient(to right, var(--border-h5-green) 33%, rgba(255, 255, 255, 0) 0%);
+}
+.grupu-box.box-orange .h5-ttl {
+  color: var(--org-color);
+  background-image: linear-gradient(to right, var(--border-h5-orange) 33%, #d3b740 0%);
+}
+
+.grupu-box .disc-list li {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .grupu-box {
+    margin: 40px 0;
+    padding: 5px 11px 30px;
+  }
+  .grupu-box .h5-ttl {
+    font-size: 1.5rem;
+    line-height: 1.68;
+  }
+}
+
+/* grupu-box End */
+
+/* text under h2 */
+.txt-ttl {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  margin: -55px 0px 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .txt-ttl {
+    margin: -20px 0 45px 0;
+    font-size: 1.5rem;
+  }
+}
+
+/* text under h2 End */
+
+/* top page */
+.vls-imgbox img {
+  width: 100%;
+}
+
+/* Font-weight Css */
+.fw-w3 {
+  font-weight: 300;
+}
+
+.fw-w4 {
+  font-weight: 400;
+}
+
+.fw-w5 {
+  font-weight: 500;
+}
+
+.fw-w6 {
+  font-weight: 600;
+}
+
+.fw-w7 {
+  font-weight: 700;
+}
+
+.fw-w8 {
+  font-weight: 800;
+}
+
+.fw-w9 {
+  font-weight: 900;
+}
+
+.overview-sub-box {
+  margin-bottom: 60px;
+}
+
+.overview-sub-box .overview-third-box h4 {
+  margin-bottom: 10px;
+}
+.overview-sub-box h3 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+}
+.overview-sub-box h4 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+}
+
+.overview-sub-box .disc-list li {
+  line-height: 1.3;
+  margin-bottom: 35px;
+}
+
+.overview-sub-box .disc-list li::before {
+  content: none;
+}
+
+.overview-sub-box .disc-list li h5 {
+  line-height: 1.7;
+}
+.overview-sub-box .disc-list li h5::before {
+  content: "•";
+  font-size: 12pt;
+  padding: 0 5px;
+}
+.overview-sub-box .disc-list li p {
+  line-height: 1.8;
+}
+/* End Font-weight Css */
+
+/* Footer Top Banner */
+.footer-top-banner {
+  background: rgba(13, 155, 40, 0.7);
+}
+.footer-top-banner .banner-link {
+  padding: 25px 0 0 0;
+  max-width: 790px;
+  margin: 0 auto;
+}
+.footer-top-banner ul {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-top-banner ul li:nth-child(3n + 1):before {
+  position: absolute;
+  content: "";
+  border-left: 1px dotted #fff;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 42px;
+}
+.footer-top-banner ul li {
+  padding: 13px 25px;
+  margin-bottom: 5px;
+  /* border-right: 1px dotted #fff; */
+  position: relative;
+  margin-bottom: 15px;
+}
+.footer-top-banner ul .pt5 {
+  padding-top: 5px;
+}
+.footer-top-banner ul li:after {
+  position: absolute;
+  content: "";
+  border-right: 1px dotted #fff;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 42px;
+}
+.footer-top-banner ul li a {
+  position: relative;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  color: #fcfcfc;
+}
+.footer-top-banner ul li .un-line {
+  text-decoration: underline;
+}
+.footer-top-banner ul li a span {
+  display: block;
+  font-size: 1.4rem;
+  color: #fcfcfc;
+  line-height: 1;
+}
+@media screen and (max-width: 768px) {
+  .footer-top-banner ul li {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
+  .footer-top-banner ul li:after {
+    height: 33px;
+  }
+  .footer-top-banner ul li:nth-child(3n + 1):before {
+    border-left: none;
+  }
+  .footer-top-banner ul li:nth-child(2n + 1):before {
+    position: absolute;
+    content: "";
+    border-left: 1px dotted #fff;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 35px;
+  }
+  .footer-top-banner ul li a span {
+    font-size: 1.2rem;
+  }
+  .footer-top-banner ul li a {
+    font-size: 1.5rem;
+  }
+  .footer-top-banner ul .pt5 {
+    padding-top: 3px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .footer-top-banner ul li a span {
+    font-size: 0.8rem;
+  }
+  .footer-top-banner ul li a {
+    font-size: 1.2rem;
+  }
+  .footer-top-banner ul li:after {
+    height: 25px;
+  }
+  .footer-top-banner ul li:nth-child(2n + 1):before {
+    height: 25px;
+  }
+  .footer-top-banner ul li {
+    padding: 5px 10px;
+  }
+}
+/* Footer Top Banner */
+
+/* 01262023 */
+/* Dimensions Block */
+.dimensions-gp .dimendions-ttl {
+  font-size: 2.5rem !important;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+}
+.dimensions-gp .dimendions-txt {
+  font-size: 2rem !important;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.dimensions-gp.green .dimendions-ttl {
+  color: var(--green-color);
+}
+.dimensions-gp.blue .dimendions-ttl {
+  color: var(--blue-color);
+}
+
+@media screen and (max-width: 768px) {
+  .dimensions-gp .dimendions-ttl {
+    font-size: 1.8rem !important;
+  }
+  .dimensions-gp .dimendions-txt {
+    font-size: 1.5rem !important;
+  }
+}
+/* Dimensions Block */
+
+/* PDF list */
+.pdf-list-gp {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.pdf-list-gp .pdf-img {
+  width: 27%;
+}
+.pdf-list-gp .pdf-icon-list {
+  width: 73%;
+  padding-left: 100px;
+}
+.pdf-icon-list .list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 57px;
+}
+.pdf-icon-list .list li {
+  line-height: 1.7;
+  justify-self: center;
+}
+.pdf-icon-list .list li a {
+  border: 0;
+  padding: 5px 0 5px 22px;
+  position: relative;
+  font-size: 2rem;
+  letter-spacing: 0px;
+}
+.pdf-icon-list .list li a::before {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  content: "";
+  background: url(../img/common/list_icon_border.png) no-repeat center;
+  background-size: contain;
+}
+@media screen and (max-width: 1080px) {
+  .pdf-list-gp .pdf-icon-list {
+    padding-left: 50px;
+  }
+  .pdf-icon-list .list {
+    gap: 10px;
+  }
+  .pdf-icon-list .list li a {
+    padding: 5px 0 5px 20px;
+    font-size: 1.8rem;
+  }
+  .pdf-icon-list .list li a::before {
+    top: 13px;
+    width: 14px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pdf-list-gp .pdf-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .pdf-list-gp .pdf-img img {
+    margin: 0 auto;
+  }
+  .pdf-list-gp {
+    display: block;
+  }
+  .pdf-list-gp .pdf-icon-list {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pdf-icon-list .list li a {
+    font-size: 1.5rem;
+    padding: 5px 0px 5px 12px;
+  }
+  .pdf-icon-list .list li a::before {
+    top: 12px;
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 407px) {
+  .pdf-icon-list .list {
+    gap: 5px;
+  }
+  .pdf-icon-list .list li a {
+    font-size: 1.4rem;
+    padding: 5px 0px 5px 10px;
+  }
+  .pdf-icon-list .list li a::before {
+    top: 11px;
+    width: 9px;
+    height: 9px;
+  }
+}
+@media screen and (max-width: 407px) {
+  .pdf-icon-list .list {
+    gap: 0px;
+  }
+  .pdf-icon-list .list li a {
+    font-size: 1.2rem;
+    padding: 5px 0px 5px 10px;
+  }
+  .pdf-icon-list .list li a::before {
+    top: 11px;
+    width: 9px;
+    height: 9px;
+  }
+}
+
+/* PDF list */
+/* /Dimensions Block */
+/* Listed TTL */
+.listed-ttl {
+  font-size: 2.5rem;
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+}
+@media screen and (max-width: 768px) {
+  .listed-ttl {
+    font-size: 1.8rem;
+  }
+}
+/* / Listed TTL */
+/* Sheet TTL */
+
+/* Sheet TTL */
+.sheet-ttl {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+}
+@media screen and (max-width: 768px) {
+  .sheet-ttl {
+    font-size: 1.6rem;
+  }
+}
+/* sheet link gp >> a */
+.sheet-link-gp a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+/* --------------- */
+.letter-spacing-0 {
+  letter-spacing: 0;
+}
+/* Triangle TTL */
+.triangle-ttl {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: #194762;
+}
+@media screen and (max-width: 768px) {
+  .triangle-ttl {
+    font-size: 1.8rem;
+  }
+}

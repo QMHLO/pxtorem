@@ -1,0 +1,110 @@
+.result-pg .txt-ttl {
+  margin: -80px 0px 36px;
+}
+.main-ttl-pg {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+}
+.result-blog {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  margin-bottom: 160px;
+}
+.result-btn a {
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2;
+  color: #ffffff;
+}
+.result-btn img {
+  max-width: 35px;
+}
+.result-btn {
+  display: flex;
+  background-color: #0052b2;
+  padding-left: 50px;
+  max-width: 286px;
+  margin-top: 10px;
+  margin-left: calc(100% - 286px);
+}
+.result-blog h3 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.58;
+  margin-bottom: 10px;
+  color: #194762;
+}
+.result-blog-sec {
+  margin-bottom: 60px;
+}
+.result-blog-sec .card-img {
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .result-pg .txt-ttl {
+    margin: -28px 0 36px;
+  }
+  .result-blog-sec .card-ttl-three {
+    font-size: 1.8rem;
+  }
+  .result-blog-sec .card-txt-one {
+    font-size: 1.5rem;
+  }
+}
+.result-blog-trd a {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: #000;
+  margin-bottom: 10px;
+}
+.result-blog-trd.lk-underline a {
+  text-decoration: underline;
+}
+.result-blog-trd {
+  margin-bottom: 75px;
+}
+.txt-20-w5 {
+  font-size: 2rem;
+  color: #000;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .main-ttl-pg {
+    font-size: 1.5rem;
+  }
+  .result-blog {
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+  }
+  .result-btn a {
+    font-size: 1.5rem;
+  }
+  .result-btn img {
+    max-width: 20px;
+  }
+  .result-btn {
+    padding-left: 20px;
+    max-width: 150px;
+    margin-top: 5px;
+    margin-left: calc(100% - 150px);
+  }
+  .result-blog h3 {
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+  }
+  .result-blog-sec {
+    margin-bottom: 30px;
+  }
+  .result-blog-sec a {
+    font-size: 2rem;
+  }
+  .result-blog-trd {
+    margin-bottom: 35px;
+  }
+}

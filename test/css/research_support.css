@@ -1,0 +1,68 @@
+.tech-sup {
+  margin-bottom: 55px;
+}
+.tech-sup p {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+}
+.underline-list ul li a {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.list-rt li a {
+  text-align: right;
+}
+.research-std {
+  margin-top: 25px;
+}
+.research-std h4 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: #194762;
+}
+.research-std h5 {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  margin-bottom: 5px;
+}
+.maru-list {
+  padding-left: 20px;
+  margin: 20px 0 35px 0;
+}
+.maru-list li::marker {
+  width: 24px;
+  height: 24px;
+  content: "◎";
+}
+
+@media screen and (max-width: 768px) {
+  .tech-sup {
+    margin-bottom: 30px;
+  }
+  .tech-sup p,
+  .underline-list ul li a,
+  .research-std h5 {
+    font-size: 1.5rem;
+  }
+  .research-std {
+    margin-top: 15px;
+  }
+  .research-std h4 {
+    font-size: 2rem;
+  }
+  .research-std h5 {
+    margin-bottom: 5px;
+  }
+  .maru-list {
+    padding-left: 15px;
+    margin: 10px 0 20px 0;
+  }
+}

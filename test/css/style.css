@@ -1,0 +1,614 @@
+@charset "utf-8";
+/* ===============================
+Top Page
+=============================== */
+@media screen and (max-width: 768px) {
+}
+/* 404 Page Start */
+.sec-error {
+  padding: 150px 0 210px 0;
+}
+.sec-error .error-ttl {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 10rem;
+  line-height: 1.32;
+  color: #b5b5b5;
+  padding: 150px 0 45px 0;
+  text-align: center;
+}
+.sec-error .error-subttl {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 3rem;
+  color: #2c87c9;
+  text-align: center;
+}
+.sec-error .error-para {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  color: #000000;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .sec-error {
+    padding: 60px 0 100px 0;
+  }
+  .sec-error .error-ttl {
+    font-size: 5rem;
+    padding: 60px 0 30px 0;
+    line-height: 1;
+  }
+  .sec-error .error-subttl {
+    font-size: 2rem;
+  }
+  .sec-error .error-para {
+    font-size: 1.5rem;
+  }
+}
+/* 404 Page End */
+
+/* Search Results Start */
+.sec-search-result {
+  padding: 150px 0 100px 0;
+}
+.sec-search-result .search-wrapper {
+  background: #ededed;
+  padding: 50px 0;
+}
+.sec-search-result .input-ctrl {
+  width: 46.5%;
+}
+.sec-search-result .search-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+.sec-search-result input {
+  display: block;
+  width: 100%;
+  padding: 16px 10px;
+  border: 1px solid #194762;
+  font-size: 2rem;
+}
+.sec-search-result .search-btn {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  border: 1px solid #194762;
+  background: #164763;
+  font-size: 2rem;
+  line-height: 2.25;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 1.5px 15px;
+}
+.sec-search-result .search-btn:hover {
+  border: 1px solid #194762;
+  background: #2c87c9;
+}
+.sec-search-result .ttl {
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-size: 3rem;
+  line-height: 2.67;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sec-search-result .ttl span {
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 4rem;
+  color: #2c87c9;
+  line-height: 2.25;
+}
+.sec-search-result .card-item {
+  border-bottom: 1px dashed #0b55af;
+  padding: 35px 0;
+}
+.sec-search-result .card-item h3 {
+  display: inline-block;
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  color: #194762;
+  line-height: 1;
+  border-bottom: 1px solid #194762;
+  margin-bottom: 10px;
+}
+.sec-search-result .card-item p {
+  display: inline-block;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.sec-search-result .card-item a {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: #2c87c9;
+}
+@media screen and (max-width: 768px) {
+  .sec-search-result {
+    padding: 70px 0 50px 0;
+  }
+  .sec-search-result .search-wrapper {
+    padding: 30px 0;
+  }
+  .sec-search-result .ttl {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+  .sec-search-result .ttl span {
+    font-size: 2.5rem;
+  }
+  .sec-search-result .input-ctrl {
+    width: 55%;
+  }
+  .sec-search-result .search-block {
+    column-gap: 10px;
+  }
+  .sec-search-result input {
+    padding: 10px;
+    font-size: 1.6rem;
+  }
+  .sec-search-result .search-btn {
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 2px 10px;
+  }
+  .sec-search-result .card-item {
+    padding: 15px 0;
+  }
+  .sec-search-result .card-item h3 {
+    font-size: 1.8rem;
+  }
+  .sec-search-result .card-item p {
+    font-size: 1.5rem;
+  }
+  .sec-search-result .card-item a {
+    font-size: 1.2rem;
+    word-break: break-all;
+  }
+}
+@media screen and (max-width: 374px) {
+  .sec-search-result .ttl,
+  .sec-search-result .card-item p {
+    font-size: 1.3rem;
+  }
+  .sec-search-result .ttl span {
+    font-size: 1.8rem;
+  }
+  .sec-search-result .card-item h3 {
+    font-size: 1.5rem;
+  }
+  .sec-search-result .card-item a {
+    font-size: 1rem;
+  }
+}
+/* Search Results End */
+
+/* List Researchers */
+.sec-list-researchers {
+  padding: 150px 0 100px 0;
+}
+.sec-list-researchers .intro-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.list-researchers-block h2 {
+  padding-bottom: 25px;
+}
+.sec-list-researchers .link-block {
+  max-width: 790px;
+  margin: 45px auto 80px auto;
+}
+.sec-list-researchers .blue-link-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* column-gap: 5px; */
+  flex-wrap: wrap;
+  margin: 0 -2px;
+}
+.sec-list-researchers .blue-link {
+  width: 33.33%;
+  margin-bottom: 5px;
+  padding: 0 2px;
+}
+.sec-list-researchers .blue-link span {
+  display: block;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  /* max-width: 260px; */
+  background: #0052b2;
+  color: #fff;
+  text-align: center;
+}
+.sec-list-researchers .blue-link.green span {
+  background: #0d9b28;
+}
+.sec-list-researchers .blue-link.red span {
+  background: #cc3b4c;
+}
+.sec-list-researchers .blue-link.orange span {
+  background: #f78009;
+}
+.sec-list-researchers .blue-link.orange.col-three {
+  width: 66.66%;
+}
+.sec-list-researchers .blue-link.orange.col-two {
+  width: 50%;
+}
+.sec-list-researchers .blue-card-block .card-row,
+.sec-list-researchers .green-card-block .card-row,
+.sec-list-researchers .red-card-block .card-row,
+.sec-list-researchers .orange-card-block .card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec-list-researchers .blue-card-block .card-item,
+.sec-list-researchers .green-card-block .card-item,
+.sec-list-researchers .red-card-block .card-item,
+.sec-list-researchers .orange-card-block .card-item {
+  width: 33.33%;
+  margin-bottom: 35px;
+}
+.sec-list-researchers .blue-card-block .card-list p,
+.sec-list-researchers .green-card-block .card-list p,
+.sec-list-researchers .red-card-block .card-list p,
+.sec-list-researchers .orange-card-block .card-list p {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.sec-list-researchers .blue-card-block .card-item h4 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+  color: #0052b2;
+  padding: 10px 0 5px 0;
+}
+.sec-list-researchers .green-card-block .card-item h4 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+  color: #0d9b28;
+  padding: 10px 0 5px 0;
+}
+.sec-list-researchers .red-card-block .card-item h4 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.875;
+  letter-spacing: -2px;
+  color: #cc3b4c;
+  padding: 10px 0 5px 0;
+}
+.sec-list-researchers .blue-card-block .card-list .round-txt,
+.sec-list-researchers .green-card-block .card-list .round-txt {
+  line-height: 1;
+  padding-top: 7px;
+}
+.sec-list-researchers .blue-card-block .card-item span,
+.sec-list-researchers .green-card-block .card-item span {
+  font-size: 1.4rem;
+}
+.sec-list-researchers .card-block .sub-ttl {
+  margin-top: 50px;
+}
+.sec-list-researchers .orange-card-block.mb0 .card-item {
+  margin-bottom: 0;
+}
+
+.sec-list-researchers .card-item p {
+  text-decoration: underline;
+}
+.sec-list-researchers .card-list > p {
+  text-decoration: underline;
+}
+/* search box */
+.list-researchers-block .search-box-container {
+  background: #ededed;
+  width: 100%;
+}
+.list-researchers-block .search-box {
+  max-width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 19px 25px 30px 25px;
+}
+.list-researchers-block .search-box p {
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #164763;
+  margin-bottom: 9px;
+  line-height: 1.5;
+}
+.list-researchers-block .search-box-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+.list-researchers-block .search-box input {
+  width: 465px;
+  height: 60px;
+  padding: 5px;
+  border: 1px solid #194762;
+  display: flex;
+  align-items: center;
+}
+.list-researchers-block .search-box a {
+  padding: 6px 12px;
+  line-height: 1.78;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #fff;
+  border: 1px solid #194762;
+  background: #164763;
+}
+.list-researchers-block .search-warning-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 1.4rem;
+  padding-left: 27px;
+  color: #ea5520;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .sec-list-researchers {
+    padding: 70px 0 50px 0;
+  }
+  .list-researchers-block h2 {
+    padding-bottom: 17px;
+  }
+  .sec-list-researchers .intro-txt {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  .sec-list-researchers .blue-link span {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    padding: 3px 0;
+  }
+  .sec-list-researchers .link-block {
+    margin: 22.5px auto 40px auto;
+  }
+  .sec-list-researchers .blue-card-block .card-list p,
+  .sec-list-researchers .green-card-block .card-list p,
+  .sec-list-researchers .red-card-block .card-list p,
+  .sec-list-researchers .orange-card-block .card-list p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  .sec-list-researchers .blue-card-block .card-item h4,
+  .sec-list-researchers .green-card-block .card-item h4,
+  .sec-list-researchers .red-card-block .card-item h4,
+  .sec-list-researchers .orange-card-block .card-item h4 {
+    font-size: 1.7rem;
+    line-height: 1.4;
+    padding: 10px 0 5px 0;
+  }
+  .sec-list-researchers .blue-card-block .card-item,
+  .sec-list-researchers .green-card-block .card-item,
+  .sec-list-researchers .red-card-block .card-item,
+  .sec-list-researchers .orange-card-block .card-item {
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 0 3px;
+  }
+
+  .sec-list-researchers .blue-card-block .card-list .round-txt,
+  .sec-list-researchers .green-card-block .card-list .round-txt {
+    line-height: 1;
+    padding-top: 5px;
+  }
+  .sec-list-researchers .blue-card-block .card-item span,
+  .sec-list-researchers .green-card-block .card-item span {
+    font-size: 1.2rem;
+  }
+  /* search box */
+  .list-researchers-block .search-box p {
+    font-size: 1.5rem;
+  }
+  .list-researchers-block .search-box-input {
+    gap: 15px;
+  }
+  .list-researchers-block .search-box input {
+    width: 232.5px;
+    height: 30px;
+  }
+  .list-researchers-block .search-box a {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  .list-researchers-block .search-warning-txt {
+    padding-left: 0px;
+    font-size: 1.2rem;
+  }
+}
+/* List Researchers */
+
+/* Intro Research Start */
+/*.sec-intro-research {
+  padding: 150px 0 100px 0;
+}*/
+.sec-intro-research .intro-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.intro-pdf-link {
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-size: 2rem;
+  line-height: 1.75;
+  letter-spacing: -0.5px;
+  text-align: right;
+  text-decoration: underline !important;
+  margin-top: 10px;
+}
+.sec-intro-research .sub-ttl {
+  margin-bottom: 20px;
+}
+.sec-intro-research .fac-card .card-title {
+  margin-bottom: 0;
+}
+.sec-intro-research .fac-card .card-inner {
+  padding: 15px 17px 10px 17px;
+}
+@media screen and (max-width: 768px) {
+  .sec-intro-research {
+    padding: 70px 0 50px 0;
+  }
+  .sec-intro-research .intro-txt,
+  .intro-pdf-link {
+    font-size: 1.5rem;
+  }
+}
+/* Intro Research End */
+
+/* Pagination */
+.pagination {
+  position: relative;
+  margin-top: 17px;
+  clear: both;
+}
+.pagination a,
+.pagination span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 15px 0;
+  /* padding: 13px 18px 15px 18px; */
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  margin: 0 3px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: #b5b5b5;
+  border: 1px solid #b5b5b5;
+}
+
+.pagination a:hover,
+.pagination .current {
+  color: #b5b5b5;
+  background-color: #ededed;
+}
+
+@media screen and (max-width: 768px) {
+  .pagination {
+    margin-top: 10px;
+  }
+
+  .pagination a,
+  .pagination span {
+    width: 31px;
+    height: 31px;
+    padding: 6px 0px 7px 0px;
+    margin: 0 3px 5px 0;
+    font-size: 1.6rem !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .pagination a {
+    font-size: 1rem;
+  }
+}
+
+.en-header-right .header-right-top .fz-16 {
+  height: initial;
+  width: initial;
+  padding: 3px 15px;
+}
+.en-header-right .header-right-bot input {
+  width: 100%;
+}
+.eng .menu-item a {
+  letter-spacing: -0.4px;
+  padding: 12px 0px 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eng .menu-item {
+  width: 20.67%;
+  height: 48px;
+}
+@media screen and (max-width: 1014px) {
+  .en-logo-w {
+    max-width: 395px;
+  }
+  .en-header-right .header-right-top .fz-16 {
+    font-size: 1.4rem !important;
+    padding: 3px 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .en-header-right {
+    padding: 0 10px;
+  }
+  .en-header-right form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .en-header-right .header-right-top .fz-16 {
+    padding: 3px 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .en-header-right .header-right-top .fz-16 {
+    padding: 3px 5px;
+  }
+  .en-header-right form {
+    max-width: 269px;
+  }
+}
+
+.eng .footer_navi {
+  display: grid;
+  gap: 0 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.eng .upper_footer ul li a {
+  letter-spacing: 0;
+}
+.eng .footer_link {
+  margin: 30px 0 0 auto;
+}
+
+@media screen and (max-width: 350px) {
+  .eng .logo-nav {
+    padding: 20px 0 16px 15px;
+  }
+  .eng .logo-nav a img {
+    width: 165px;
+  }
+  .eng .menu-slider .txt-en::after {
+    font-size: 15px;
+  }
+  .eng .menu-slider::after {
+    font-size: 15px;
+  }
+  .eng .gmenu {
+    right: 15px;
+  }
+  .eng .menu-switch {
+    right: 70px;
+  }
+}

@@ -1,0 +1,22 @@
+.emp-num {
+  margin: 55px 0 145px 0;
+}
+.emp-num-pt {
+  display: flex;
+  max-width: 50%;
+}
+.org-stt {
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 768px) {
+  .emp-num {
+    margin: 25px 0 70px 0;
+  }
+  .emp-num-pt {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .org-stt {
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,1869 @@
+/*research*/
+.sec-research {
+  padding-top: 188px;
+  padding-bottom: 80px;
+}
+
+.header-top-sec-pt.sec-research {
+  padding-top: 188px;
+  padding-bottom: 80px;
+}
+
+.research-menu {
+  background: #ededed;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 165px;
+  left: 0;
+}
+
+.research-menu .menu-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.research-menu li {
+  width: 16.6666%;
+  border-bottom: 5px solid #0d9b28;
+  background: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*20230202*/
+.research-menu.blue li {
+  width: 16.6666%;
+  border-bottom: 5px solid #0052b2;
+  background: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-menu.blue li {
+  width: 16.6666%;
+  border-bottom: 5px solid #0052b2;
+  background: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-menu.orange li {
+  width: 16.6666%;
+  border-bottom: 5px solid #f78009;
+  background: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*20230202 end*/
+.research-menu li:hover {
+  background: #fff;
+  border-bottom-color: #4abf60;
+}
+
+.research-menu.orange-color li {
+  border-bottom: 5px solid #f78009;
+}
+
+.research-menu.orange-color li:hover {
+  background: #fff;
+  border-bottom-color: #faa652;
+}
+
+.research-menu.blue-color li {
+  border-bottom: 5px solid #0052b2;
+}
+
+.research-menu.blue-color li:hover {
+  background: #fff;
+  border-bottom-color: #0467db;
+}
+
+.research-menu.red-color li {
+  border-bottom: 5px solid #cc3b4c;
+}
+
+.research-menu.red-color li:hover {
+  background: #fff;
+  border-bottom-color: #dd6674;
+}
+
+.research-menu a {
+  padding: 0 1px;
+  padding-top: 11px;
+  padding-bottom: 8px;
+  font-size: 1.4rem;
+  /* font-family: "Hiragino UD Sans F Std", sans-serif; */
+  font-family: "ヒラギノUD角ゴ StdN W4", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+}
+
+.research-mv {
+  width: 100%;
+}
+
+.research-block-ttl {
+  margin: 30px 0 12px;
+}
+
+.research-block-ttl .ttl {
+  font-size: 4rem;
+  border-bottom: 1px solid #000000;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  line-height: 1;
+}
+
+.research-para {
+  font-size: 2rem;
+  line-height: 1.45;
+  letter-spacing: 0.8px;
+  padding-top: 7px;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+
+.research-card {
+  margin: 65px 0 89px 0;
+}
+
+.research-txt {
+  background: rgb(237, 237, 237, 0.55);
+  padding: 17px 27px 37px 27px;
+}
+
+.research-txt p {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+}
+
+.research-txt-small-ttl {
+  font-size: 1.6rem;
+  display: inline-block;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+
+.orange-color-block .research-txt-small-ttl {
+  color: #f78009;
+}
+.blue-color-block .research-txt-small-ttl {
+  color: #0052b2;
+}
+.red-color-block .research-txt-small-ttl {
+  color: #cc3b4c;
+}
+.green-color-block .research-txt-small-ttl {
+  color: #0d9b28;
+}
+
+.research-topics {
+  max-width: 1050px;
+  margin: 0 auto;
+  /* padding: 0 25px;*/
+}
+
+.green .research-topics-wrapper {
+  background: rgb(13, 155, 40, 0.1);
+}
+
+.red .research-topics-wrapper {
+  background: rgb(204, 59, 76, 0.1);
+}
+
+.blue .research-topics-wrapper {
+  background: rgb(0, 82, 178, 0.1);
+}
+
+.orange .research-topics-wrapper {
+  background: rgb(247, 128, 9, 0.1);
+}
+
+.research-topics-wrapper .inner {
+  padding: 28px 25px 320px 25px;
+}
+
+.green .research-topics-wrapper .inner-ttl {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px dotted #1c9a30;
+  padding: 0 0px 7px 10px;
+}
+
+.red .research-topics-wrapper .inner-ttl {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  align-items: flex-end;
+  border-bottom: 2px dotted #ca3d4f;
+  padding: 0 0px 1px 10px;
+}
+
+.blue .research-topics-wrapper .inner-ttl {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px dotted #0b55af;
+  padding: 0 0px 1px 10px;
+}
+
+.orange .research-topics-wrapper .inner-ttl {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px dotted #f58026;
+  padding: 0 0px 7px 10px;
+}
+
+.orange .research-topics-ttl {
+  color: #f78009;
+}
+.blue .research-topics-ttl {
+  color: #0052b2;
+}
+.red .research-topics-ttl {
+  color: #cc3b4c;
+}
+.green .research-topics-ttl {
+  color: #0d9b28;
+}
+
+.research-topics-wrapper .inner-btn-gp {
+  display: flex;
+  column-gap: 15px;
+  padding-bottom: 6px;
+}
+
+.blue .research-topics-wrapper .inner-btn-gp,
+.red .research-topics-wrapper .inner-btn-gp {
+  padding-bottom: 6px;
+}
+
+.green .research-topics-wrapper .inner-btn-gp a {
+  font-size: 2.5rem;
+  line-height: 1.6;
+  color: #fff;
+  background: #0d9b28;
+  padding: 0.5px 10px;
+}
+
+.red .research-topics-wrapper .inner-btn-gp a {
+  font-size: 2.5rem;
+  line-height: 1.6;
+  color: #fff;
+  background: #cc3b4c;
+  padding: 0.5px 10px;
+}
+
+.blue .research-topics-wrapper .inner-btn-gp a {
+  font-size: 2.5rem;
+  line-height: 1.6;
+  color: #fff;
+  background: #0052b2;
+  padding: 0.5px 10px;
+}
+
+.orange .research-topics-wrapper .inner-btn-gp a {
+  font-size: 2.5rem;
+  line-height: 1.6;
+  color: #fff;
+  background: #f78009;
+  padding: 0.5px 10px;
+}
+
+.research-para-row {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 15px;
+}
+
+.research-para-row p {
+  max-width: 665px;
+  padding-top: 0;
+}
+
+.research-para-img {
+  max-width: 315px;
+}
+
+.research-txt-ttl {
+  font-size: 3rem;
+  margin-bottom: 24px;
+  line-height: 1.58;
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+}
+.research-topics-ttl {
+  font-size: 3rem;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+}
+
+.sec-research .lcm-header h2 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  font-size: 4rem;
+  letter-spacing: -2px;
+  line-height: 1.5;
+}
+
+.sec-research .lcm-header h2 span {
+  color: #000;
+  font-size: 2.7rem;
+}
+
+.sec-research .lcm-header h2::after {
+  content: "";
+  width: 100%;
+  height: 1.5px;
+  background-color: #000000;
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+}
+
+.sec-research .lcm-header h4 {
+  line-height: 2.56;
+  font-size: 1.6rem;
+  color: #f78009;
+}
+
+@media screen and (max-width: 820px) {
+  .research-menu {
+    top: 139px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .research-menu {
+    top: 70px;
+  }
+
+  .research-menu a {
+    font-size: 1rem;
+  }
+
+  .research-block-ttl {
+    margin: 20px 0 8px;
+  }
+
+  .research-block-ttl .ttl {
+    font-size: 3rem;
+  }
+
+  .research-para {
+    font-size: 1.5rem;
+  }
+
+  .blue .research-topics-wrapper .inner-btn-gp,
+  .red .research-topics-wrapper .inner-btn-gp {
+    padding-bottom: 0;
+  }
+
+  .research-txt-small-ttl {
+    font-size: 1.2rem;
+  }
+  .research-txt-ttl {
+    font-size: 2.2rem;
+  }
+
+  .research-topics-ttl {
+    font-size: 1.6rem;
+  }
+
+  .research-txt {
+    padding: 15px 15px 20px 15px;
+  }
+
+  .research-txt p {
+    font-size: 1.5rem;
+  }
+
+  .research-topics-wrapper .inner {
+    padding: 20px 10px 200px 10px;
+  }
+
+  .green .research-topics-wrapper .inner-btn-gp a,
+  .red .research-topics-wrapper .inner-btn-gp a,
+  .orange .research-topics-wrapper .inner-btn-gp a,
+  .blue .research-topics-wrapper .inner-btn-gp a {
+    font-size: 1.6rem;
+  }
+
+  .research-topics-wrapper .inner-btn-gp {
+    column-gap: 7px;
+    padding-bottom: 2px;
+  }
+
+  .research-card {
+    margin: 35px 0 43px 0;
+  }
+
+  .blue .research-topics-wrapper .inner-ttl,
+  .red .research-topics-wrapper .inner-ttl {
+    padding-bottom: 7px;
+  }
+  .sec-research .lcm-header h2 {
+    font-size: 2.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .sec-research .lcm-header h2 span {
+    font-size: 2.2rem;
+  }
+  .sec-research .lcm-header h2::after {
+    bottom: 0px;
+  }
+
+  .sec-research .lcm-header h4 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .research-block-ttl .ttl {
+    font-size: 2.5rem;
+  }
+
+  .green .research-topics-wrapper .inner-btn-gp a,
+  .red .research-topics-wrapper .inner-btn-gp a,
+  .orange .research-topics-wrapper .inner-btn-gp a,
+  .blue .research-topics-wrapper .inner-btn-gp a {
+    font-size: 1.2rem;
+  }
+
+  .research-txt-small-ttl {
+    font-size: 1rem;
+  }
+
+  .research-txt p,
+  .research-para {
+    font-size: 1.2rem;
+  }
+  .sec-research .lcm-header h2 {
+    font-size: 2.5rem;
+  }
+  .sec-research .lcm-header h2 span {
+    font-size: 2rem;
+  }
+  .sec-research .lcm-header h4 {
+    font-size: 1.2rem;
+  }
+}
+
+/* =============== Start ================= */
+/* ============ bigdata.html ============= */
+/* ========research/unit/infuradx========= */
+.technology-gp {
+  display: flex;
+  padding-top: 25px;
+}
+
+.technology-img {
+  width: 316px;
+}
+
+.technology-txt {
+  width: calc(100% - 316px);
+  padding-right: 18px;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.pg-bigData .research-txt p {
+  letter-spacing: 1px;
+}
+
+/* ================= End ================= */
+/* ============ bigdata.html ============= */
+/* ========research/unit/infuradx========= */
+
+/* Research Support Start */
+.tech-sup {
+  margin-bottom: 65px;
+}
+
+.tech-sup p {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+}
+
+.underline-list ul li a {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.list-rt li a {
+  text-align: right;
+}
+
+.research-techanical-support .sub-ttl {
+  margin-bottom: 24px;
+}
+.research-std {
+  margin-top: 25px;
+}
+/* 
+  .research-std h5 {
+    font-size: 20px;
+    line-height: 2.25;
+    letter-spacing: 1px;
+    font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  } */
+
+.research-std h3 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  color: #194762;
+}
+
+.research-std h4 {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+  margin-bottom: 5px;
+}
+
+.maru-list {
+  padding-left: 20px;
+  margin: 20px 0 35px 0;
+}
+
+.maru-list li::marker {
+  width: 24px;
+  height: 24px;
+  content: "◎";
+}
+
+.tech-ttl {
+  text-align: center;
+  margin: -55px 0 90px 0;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .tech-sup {
+    margin-bottom: 30px;
+  }
+
+  .tech-sup p,
+  .underline-list ul li a,
+  .research-std h5 {
+    font-size: 1.5rem;
+  }
+
+  .research-std {
+    margin-top: 15px;
+  }
+
+  .research-std h4 {
+    font-size: 2rem;
+  }
+
+  .research-std h5 {
+    margin-bottom: 5px;
+  }
+
+  .maru-list {
+    padding-left: 15px;
+    margin: 10px 0 20px 0;
+  }
+
+  .tech-ttl {
+    margin: -20px 0 45px 0;
+    font-size: 1.5rem;
+  }
+}
+
+/* Research Support End */
+
+/* Competition Start */
+.sec-competition {
+  padding: 165px 0 100px 0;
+}
+
+.com-para {
+  font-size: 2rem;
+  line-height: 1.875;
+  text-align: center;
+  padding: 10px 35px 70px 35px;
+  letter-spacing: 1.1px;
+}
+
+.sec-competition .vol-table h5 {
+  color: #194762;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.vol-table-ttl {
+  color: #194762;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+.sec-competition .contact-box {
+  margin: 70px 0 100px 0;
+}
+
+.sec-competition .vol-table ul li img {
+  width: 21px;
+  padding-bottom: 2px;
+}
+
+.sec-competition .contact-box .w3 {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-competition {
+    padding: 80px 0 40px 0;
+  }
+
+  .com-para {
+    padding: 0px 0 20px 0;
+    font-size: 1.5rem;
+  }
+
+  .vol-table-ttl {
+    font-size: 1.8rem;
+  }
+
+  .sec-competition .contact-box {
+    margin: 35px 0 0px 0;
+  }
+
+  .sec-competition .vol-table ul li img {
+    width: 15px;
+    padding-bottom: 2px;
+  }
+}
+
+/* Competition End */
+.pg-lifeCycle .research-menu a {
+  font-size: 1.3rem;
+  letter-spacing: -0.65px;
+}
+
+.br-menu.research-menu a {
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.pg-lifeCycle #breadcrumb .crumb-in li a {
+  font-size: 1.8rem;
+  letter-spacing: -1px;
+}
+
+.pg-oceanInfra .research-menu a {
+  letter-spacing: -0.2px;
+  font-size: 1.5rem;
+}
+
+/* dosit start */
+.sec-dosit {
+  padding: 150px 0 100px 0;
+}
+
+.green-color-block .research-block-ttl .ttl,
+.red-color-block .research-block-ttl .ttl,
+.blue-color-block .research-block-ttl .ttl {
+  line-height: 1;
+}
+.sec-dosit .green-color-block .research-block-ttl p {
+  line-height: 1;
+}
+.sec-dosit .green-color-block .research-block-ttl span {
+  margin-bottom: 5px;
+}
+.sec-dosit .research-block-ttl {
+  margin-bottom: 0px;
+}
+.sec-dosit .green-color-block .research-block-ttl .ttl-row span {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .sec-dosit {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-dosit .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* dosit end */
+
+/* doudo start */
+.sec-doudo {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-doudo {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-doudo .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* doudo end */
+
+/* jbnkai start */
+.sec-jbnkai {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-jbnkai {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-jbnkai .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* jbnkai end */
+
+/* kiso start */
+.sec-kiso {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-kiso {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-kiso .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* kiso end */
+
+/* jishindo start */
+.sec-jishindo {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-jishindo {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-jishindo .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* jishindo end */
+
+/* taisin start */
+.sec-taisin {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-taisin {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-taisin .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* taisin end */
+
+/* kozo start */
+.sec-kozo {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-kozo {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-kozo .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* kozo end */
+
+/* kozosin start */
+.sec-kozosin {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-kozosin {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-kozosin .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* kozosin end */
+
+/* zairy start */
+.sec-zairy {
+  padding: 150px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-zairy {
+    padding: 104px 0 40px 0;
+  }
+
+  .sec-zairy .research-block-ttl {
+    margin-top: 20px;
+  }
+}
+
+/* zairy end */
+
+/* Cooperation page */
+.cooperation .mg-two {
+  margin: 18px 0 12px;
+}
+
+.cooperation .card-wrap {
+  margin-bottom: 160px;
+}
+
+.cooperation .collab-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 1px;
+  max-width: 726px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.cooperation .cotxt-container {
+  padding: 13px 15px 17px 21px;
+}
+
+@media screen and (max-width: 820px) {
+  .header-top-sec-pt.sec-research {
+    padding-top: 175px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cooperation .card-wrap {
+    margin-bottom: 0;
+  }
+
+  .cooperation .collab-txt {
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+  }
+
+  .cooperation .cotxt-container {
+    padding: 0;
+  }
+
+  .header-top-sec-pt.sec-research {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .technology-gp {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .technology-txt {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .technology-img {
+    max-width: 316px;
+    width: auto;
+    margin-bottom: 30px;
+  }
+
+  .cooperation .card-txt {
+    padding-top: 20px;
+  }
+
+  .cooperation .card-btn {
+    margin: 0 10px 15px 0;
+  }
+
+  .cooperation .card-img-sp {
+    padding: 20px 0 20px 15px;
+  }
+}
+
+/* Cooperation page  End*/
+.pg-bigData .research-menu a,
+.pg-metaRobotics .research-menu a,
+.pg-cyberConstruction .research-menu a,
+.pg-marineInformation .research-menu a {
+  letter-spacing: -0.7px;
+}
+
+.pg-bigData .research-para {
+  padding-top: 0;
+  letter-spacing: 1px;
+}
+.pg-irCenter .research-para {
+  padding-top: 15px;
+}
+/* Trust page Start*/
+.sec-trust {
+  padding: 165px 0 100px 0;
+}
+
+.sec-trust .com-para {
+  padding: 10px 35px 35px 35px;
+}
+
+.sec-trust .vol-table h5 {
+  color: #194762;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+.sec-trust .contact-box {
+  margin: 70px 0 100px 0;
+}
+
+.sec-trust .vol-table ul li img {
+  width: 21px;
+  padding-bottom: 2px;
+}
+
+.trust-para-link {
+  font-size: 2.5rem;
+  color: #0052b2;
+  text-decoration: underline !important;
+  text-align: right;
+}
+
+.sec-trust .contact-box .w3 {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-trust {
+    padding: 80px 0 40px 0;
+  }
+
+  .sec-trust .com-para {
+    padding: 0px 0 20px 0;
+    font-size: 1.5rem;
+  }
+
+  .sec-trust .vol-table h5 {
+    font-size: 1.8rem;
+  }
+
+  .sec-trust .contact-box {
+    margin: 35px 0 0px 0;
+  }
+
+  .sec-trust .vol-table ul li img {
+    width: 15px;
+    padding-bottom: 2px;
+  }
+
+  .trust-para-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .trust-para-link {
+    font-size: 1.5rem;
+  }
+}
+
+/* Trust page End*/
+
+/* cooperate page Start*/
+.sec-cooperate {
+  padding: 165px 0 100px 0;
+}
+
+.sec-cooperate .com-para {
+  padding: 10px 35px 35px 35px;
+}
+
+.cooperate-para-link {
+  font-size: 2.5rem;
+  color: #0052b2;
+  text-decoration: underline !important;
+  text-align: right;
+}
+
+.sec-cooperate .time-table.table-col-4 tr td {
+  height: 78px;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-cooperate {
+    padding: 80px 0 40px 0;
+  }
+
+  .sec-cooperate .com-para {
+    padding: 0px 0 20px 0;
+    font-size: 1.5rem;
+  }
+
+  .cooperate-para-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cooperate-para-link {
+    font-size: 1.5rem;
+  }
+}
+
+/* cooperate page End*/
+/* unit page */
+.unit .card-title-two p {
+  padding: 20px 0 22px;
+}
+
+.unit .div-sec {
+  margin-bottom: 100px;
+}
+
+.unit .div-sec:last-child {
+  margin-bottom: 0;
+}
+
+.unit .card-item {
+  margin-bottom: 65px;
+}
+
+.unit .card-item:last-child {
+  margin-bottom: 0;
+}
+
+.unit .card-inner {
+  padding-left: 24px;
+}
+
+.unit .card-right {
+  padding: 0 20px 0 14px;
+}
+.unit .card-btn {
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  .unit .card-title-two p {
+    padding: 0px 0 10px;
+  }
+
+  .unit .div-sec {
+    margin-bottom: 50px;
+  }
+
+  .unit .card-item {
+    margin-bottom: 32.5px;
+  }
+
+  .unit .card-inner {
+    padding: 15px;
+  }
+
+  .unit .card-right {
+    padding: 0;
+  }
+
+  .unit .card-img-two {
+    max-width: 464px;
+    margin: 10px auto 20px;
+  }
+}
+/* unit page end */
+
+/* Research Pages Correction */
+.kaiyo .card-btn {
+  padding-bottom: 5px;
+}
+.kaiyo .card-txt-one {
+  line-height: 1.5;
+}
+.kaiyo .card-footer-txt {
+  line-height: 1.7;
+}
+.card-footer-txt.card-footer-txt-14rem {
+  font-size: 1.4rem;
+}
+/* End of Research Pages Correction */
+
+/* unit/haro/facilities  page*/
+.fac-card .card-inner {
+  padding: 15px 17px 22px 19px;
+}
+.fac-card .card-title {
+  margin-bottom: 15px;
+  display: grid;
+  align-items: end;
+}
+@media screen and (max-width: 450px) {
+  .fac-card.grid-two-sp {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* trust page*/
+.trust-block .vol-table ul li a {
+  font-size: 2.4rem;
+}
+@media screen and (max-width: 768px) {
+  .trust-block .vol-table ul li a {
+    font-size: 1.8rem;
+  }
+}
+
+/* Motion Page Group */
+/* Earthquake page start */
+.sec-earthquake .earthquake-block {
+  padding: 105px 0 0 0;
+}
+.sec-earthquake .sub-ttl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec-earthquake .sub-ttl span {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.sec-earthquake .list-block {
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+  .sec-earthquake .earthquake-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-earthquake .sub-ttl span {
+    font-size: 1.4rem;
+  }
+  .sec-earthquake .list-block {
+    margin-bottom: 50px;
+  }
+}
+/* Earthquake page end */
+
+/* flip page start */
+.sec-flip .flip-block {
+  padding: 105px 0 0 0;
+}
+.sec-flip .flip-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+@media screen and (max-width: 768px) {
+  .sec-flip .flip-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-flip .flip-txt {
+    font-size: 1.5rem;
+  }
+}
+/* flip page end */
+
+/* power page start */
+.sec-power .power-block {
+  padding: 105px 0 0 0;
+}
+.sec-power .power-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.sec-power .icon-list-section.year-list.green ul .none {
+  padding: 39px 0;
+}
+.sec-power .icon-list-section.year-list.green ul .none:before {
+  display: none;
+}
+.sec-power .icon-list-section.year-list.green ul .none a {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .sec-power .power-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-power .power-txt {
+    font-size: 1.5rem;
+  }
+  .sec-power .icon-list-section.year-list.green ul .none {
+    padding: 25px 0;
+  }
+}
+/* power page end */
+
+/* note page start */
+.sec-note .note-block {
+  padding: 105px 0 0 0;
+}
+.sec-note .note-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+.sec-note .list-block {
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 768px) {
+  .sec-note .note-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-note .note-txt {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  .sec-note .list-block {
+    margin-bottom: 70px;
+  }
+}
+/* note page end */
+/* amplification page start */
+.sec-amplification .amplification-block {
+  padding: 105px 0 0 0;
+}
+.sec-amplification .list-block {
+  margin-bottom: 225px;
+}
+@media screen and (max-width: 768px) {
+  .sec-amplification .amplification-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-amplification .list-block {
+    margin-bottom: 70px;
+  }
+}
+/* amplification page end */
+
+/* member page start */
+.sec-member .member-block {
+  padding: 105px 0 0 0;
+}
+.sec-member .list-block {
+  margin-bottom: 225px;
+}
+.sec-member .member-table-block {
+  margin: 30px 0 65px 0;
+}
+.sec-member .member-table {
+  width: 100%;
+}
+.sec-member .member-table tr th.th-head {
+  text-align: left;
+  background-color: #0d9b28;
+  color: var(--w-color);
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  padding: 5px 0 5px 20px;
+}
+/* .sec-member .member-table tr {
+  } */
+.sec-member .member-table tr th {
+  background: rgba(44, 135, 201, 0.1);
+  color: var(--b-color);
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+.sec-member .member-table tr th:nth-child(even) {
+  background: rgba(13, 155, 40, 0.25);
+}
+.sec-member .member-table tr td {
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 1.875;
+  padding: 7px 10px 7px 20px;
+  height: 52px;
+  /* word-spacing: 9999px; */
+  letter-spacing: -0.5px;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  border-bottom: 1px dotted #707070;
+}
+.sec-member .member-table tr td:nth-child(1) {
+  width: 28%;
+}
+.sec-member .member-table tr td:nth-child(2) {
+  width: 30.5%;
+}
+.sec-member .member-table tr td:nth-child(3) {
+  width: 41.5%;
+}
+.sec-member .member-table tr td:nth-child(odd) {
+  background-color: var(--bg-td-gray-49);
+}
+.sec-member .member-table tr td.line {
+  text-decoration: underline !important;
+}
+.sec-member .member-table.semic tr td {
+  line-height: 1.2;
+}
+.sec-member .member-table-block.mb130 {
+  margin-bottom: 130px;
+}
+@media screen and (max-width: 768px) {
+  .sec-member .member-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-member .list-block {
+    margin-bottom: 70px;
+  }
+  .sec-member .member-table-block {
+    margin: 30px 0;
+  }
+  .sec-member .member-table-block.mb130 {
+    margin-bottom: 50px;
+  }
+  .sec-member .member-table tr th.th-head {
+    font-size: 1.4rem;
+  }
+  .sec-member .member-table tr th {
+    font-size: 1.2rem;
+  }
+  .sec-member .member-table tr td {
+    font-size: 1.4rem;
+    padding: 3px 5px 3px 5px;
+    line-height: 1.4;
+  }
+}
+@media screen and (max-width: 374px) {
+  .sec-member .member-table tr th.th-head {
+    font-size: 1.2rem;
+  }
+  .sec-member .member-table tr th {
+    font-size: 1rem;
+  }
+  .sec-member .member-table tr td {
+    font-size: 1.2rem;
+    padding: 3px 5px 3px 5px;
+    line-height: 1.2;
+  }
+}
+/* member page end */
+
+/* facilities start page */
+.sec-facilities .facilities-block {
+  padding: 105px 0 0 0;
+}
+.sec-facilities .list-block {
+  margin-bottom: 225px;
+}
+
+.sec-facilities .card_container {
+  margin-top: 42px;
+  margin-bottom: 80px;
+}
+
+.sec-facilities .fac_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.sec-facilities .fac_card {
+  padding-block: 15px 18px;
+  padding-inline: 16px 17px;
+  width: max-content;
+  background-color: rgba(13, 155, 40, 0.1);
+}
+.sec-facilities .fac_card_title {
+  color: #0d9b28;
+  margin-bottom: 19px;
+}
+
+.sec-facilities .img_container {
+  max-width: 292px;
+  margin-bottom: 14px;
+}
+.sec-facilities .img_container img {
+  width: 100%;
+}
+
+.sec-facilities .fac_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.sec-facilities .btn_wrapper {
+  width: 144px;
+  padding-block: 7px 8px;
+
+  border: 2px solid #1c9a30;
+  border-radius: 100vmax;
+  display: flex;
+  justify-content: center;
+}
+.sec-facilities .btn_wrapper a {
+  font-size: 1.6rem;
+
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #0d9b28;
+}
+
+.sec-facilities .facilities_gallery h2 {
+  color: #0d9b28;
+}
+
+.sec-facilities .gallery_container {
+  margin-block: 10px 80px;
+}
+
+.sec-facilities .g_container_1 {
+  display: flex;
+
+  gap: 22px;
+  margin-bottom: 18px;
+}
+
+.sec-facilities .g_container_1 > .g_img_container {
+  flex: 1;
+  /* height: 450px; */
+}
+
+.sec-facilities .g_img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-facilities .g_container_2 {
+  display: flex;
+  gap: 6px;
+}
+
+.sec-facilities .one_third {
+  flex: 1;
+}
+.sec-facilities .two_third {
+  flex: 2;
+}
+
+.sec-facilities .modal_introduction h2 {
+  color: #0d9b28;
+  margin-bottom: 12px;
+}
+
+.sec-facilities .sub_fac_title {
+  display: flex;
+  align-items: center;
+}
+.sub_fac_title .green_rect {
+  width: 15px;
+  height: 14px;
+  background-color: #0d9b28;
+  margin-right: 5px;
+}
+.sec-facilities .sub_fac_title h3 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 2.25;
+}
+.sec-facilities .table_model {
+  display: flex;
+  padding-block: 2px 23px;
+}
+.sec-facilities .table_model .t_img_container {
+  flex: 1;
+}
+.sec-facilities .table_model .t_img_container:first-child {
+  margin-right: 87px;
+}
+.sec-facilities .table_model .t_img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-facilities .quay_para {
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+  margin-top: 8px;
+}
+
+.sec-facilities .quay_models {
+  border: 1px solid transparent;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+
+.sec-facilities .quay_models .quay_card:not(:last-child) {
+  margin-bottom: 30px;
+}
+.sec-facilities .quay_card {
+  display: flex;
+}
+.sec-facilities .q_img_container {
+  max-width: 312px;
+
+  margin-right: 23px;
+}
+.sec-facilities .q_img_container img {
+  width: 100%;
+
+  height: 100%;
+  object-fit: cover;
+}
+.sec-facilities .quay_info {
+  flex: 1;
+}
+.sec-facilities .quay_info .quay_title {
+  color: #0d9b28;
+  margin-bottom: 8px;
+}
+
+/* .sec-facilities . */
+@media screen and (max-width: 1035px) {
+  .sec-facilities .fac_cards {
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    gap: 20px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .sec-facilities .table_model .t_img_container:first-child {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec-facilities .facilities-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-facilities .list-block {
+    margin-bottom: 70px;
+  }
+
+  .sec-facilities .card_container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .sec-facilities .fac_card {
+    padding-block: 8px 11px;
+    padding-inline: 16px 17px;
+  }
+  .sec-facilities .fac_card_title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .sec-facilities .img_container {
+    margin-bottom: 7px;
+  }
+
+  .sec-facilities .btn_wrapper {
+    width: max-content;
+    padding-inline: 30px;
+    padding-block: 7px 8px;
+  }
+  .sec-facilities .btn_wrapper a {
+    font-size: 1rem;
+  }
+
+  .sec-facilities .facilities_gallery h2 {
+    font-size: 1.5rem;
+  }
+
+  .sec-facilities .gallery_container {
+    margin-block: 5px 40px;
+  }
+
+  .sec-facilities .modal_introduction h2 {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+  }
+
+  .sec-facilities .sub_fac_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .sec-facilities .table_model {
+    padding-block-end: 20px;
+  }
+
+  .sub_fac_title .green_rect {
+    width: 10px;
+    height: 10px;
+  }
+
+  .sec-facilities .quay_para {
+    font-size: 1.5rem;
+
+    margin-top: 4px;
+  }
+
+  .sec-facilities .quay_models {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  .sec-facilities .table_model .t_img_container:first-child {
+    margin-right: 10px;
+  }
+
+  .sec-facilities .quay_card {
+    flex-direction: column;
+  }
+
+  .sec-facilities .q_img_container {
+    max-width: min(100%, 400px);
+
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .sec-facilities .quay_models .quay_card:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .sec-facilities .quay_info .quay_title {
+    /* color: #0d9b28; */
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .sec-facilities .fac_cards {
+    justify-content: flex-start;
+  }
+}
+/* facilities end page */
+.unit .card-footer-txt {
+  line-height: 1.54;
+}
+
+/* 01262023 */
+/* Research-ttl-block */
+.research-block-ttl .research-main-ttl {
+  font-size: 4rem;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  line-height: 1;
+  border-bottom: 2px solid #000;
+  padding-bottom: 8px;
+}
+.pg-lifeCycle .research-block-ttl .research-main-ttl {
+  letter-spacing: -2px;
+}
+/* ------------------------------------ */
+.research-block-ttl .research-ttl-span01 {
+  display: block;
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+/* ------------------------- */
+.research-block-ttl .research-ttl-span02 {
+  display: block;
+  font-size: 1.6rem;
+  margin-top: 7px;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+}
+.research-block-ttl .research-main-ttl-span {
+  font-size: 2.7rem;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  line-height: 1.5;
+}
+.green-color-block .research-block-ttl .research-ttl-span01,
+.green-color-block .research-block-ttl .research-ttl-span02 {
+  color: #0d9b28;
+}
+.blue-color-block .research-block-ttl .research-ttl-span01,
+.blue-color-block .research-block-ttl .research-ttl-span02 {
+  color: #0052b2;
+}
+.red-color-block .research-block-ttl .research-ttl-span01,
+.red-color-block .research-block-ttl .research-ttl-span02 {
+  color: #cc3b4c;
+}
+.orange-color-block .research-block-ttl .research-ttl-span01,
+.orange-color-block .research-block-ttl .research-ttl-span02 {
+  color: #f78009;
+}
+/* -------------------- */
+
+@media screen and (max-width: 768px) {
+  .research-block-ttl .research-main-ttl {
+    font-size: 3rem;
+  }
+  .research-block-ttl .research-ttl-span01 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 5px 0;
+  }
+  .research-block-ttl .research-ttl-span02 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .research-block-ttl .research-main-ttl-span {
+    font-size: 2.2rem;
+  }
+}
+
+/*20220220追加*/
+/* member page start */
+.sec-member .member-block {
+  padding: 105px 0 0 0;
+}
+.sec-member .list-block {
+  margin-bottom: 225px;
+}
+.sec-member .member-table-block {
+  margin: 30px 0 65px 0;
+}
+.sec-member .member-table {
+  width: 100%;
+}
+.sec-member .member-table tr th.th-head {
+  text-align: left;
+  background-color: #0052b2;
+  color: var(--w-color);
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  padding: 5px 0 5px 20px;
+}
+/* .sec-member .member-table tr {
+  } */
+.sec-member .member-table-red tr th {
+  background: #cc3b4c;
+  color: var(--b-color);
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+.sec-member .member-table-red tr th:nth-child(even) {
+  background: rgba(204, 59, 76, 0.1);
+}
+.sec-member .member-table-red tr td {
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 1.875;
+  padding: 7px 10px 7px 20px;
+  height: 52px;
+  /* word-spacing: 9999px; */
+  letter-spacing: -0.5px;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  border-bottom: 1px dotted #707070;
+}
+.sec-member .member-table-red tr td:nth-child(1) {
+  width: 28%;
+}
+.sec-member .member-table-red tr td:nth-child(2) {
+  width: 30.5%;
+}
+.sec-member .member-table-red tr td:nth-child(3) {
+  width: 41.5%;
+}
+.sec-member .member-table-red tr td:nth-child(odd) {
+  background-color: var(--bg-td-gray-49);
+}
+.sec-member .member-table-red tr td.line {
+  text-decoration: underline !important;
+}
+.sec-member .member-table-red.semic tr td {
+  line-height: 1.2;
+}
+.sec-member .member-table-red-block.mb130 {
+  margin-bottom: 130px;
+}
+@media screen and (max-width: 768px) {
+  .sec-member .member-block {
+    padding: 30px 0 0 0;
+  }
+  .sec-member .list-block {
+    margin-bottom: 70px;
+  }
+  .sec-member .member-table-red-block {
+    margin: 30px 0;
+  }
+  .sec-member .member-table-red-block.mb130 {
+    margin-bottom: 50px;
+  }
+  .sec-member .member-table-red tr th.th-head {
+    font-size: 1.4rem;
+  }
+  .sec-member .member-table-red tr th {
+    font-size: 1.2rem;
+  }
+  .sec-member .member-table-red tr td {
+    font-size: 1.4rem;
+    padding: 3px 5px 3px 5px;
+    line-height: 1.4;
+  }
+}
+@media screen and (max-width: 374px) {
+  .sec-member .member-table-red tr th.th-head {
+    font-size: 1.2rem;
+  }
+  .sec-member .member-table-red tr th {
+    font-size: 1rem;
+  }
+  .sec-member .member-table-red tr td {
+    font-size: 1.2rem;
+    padding: 3px 5px 3px 5px;
+    line-height: 1.2;
+  }
+}
+/* member page end */
+/*20220220追加ここまで*/

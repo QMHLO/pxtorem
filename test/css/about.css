@@ -1,0 +1,1853 @@
+/*about.css*/
+.about .mg-one {
+  margin: 38px 0 9px;
+}
+
+.about .about-container {
+  max-width: 735px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+/* .about .main-img {
+    background: url(../../assets/img/about/about_mv.png) no-repeat center center;
+    background-size: cover;
+  } */
+
+.about .main-img img {
+  width: 100%;
+}
+
+.about .img-txt {
+  font-size: 2.5rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about .card-wrap {
+  margin-top: 70px;
+}
+
+.about .card-body .card-txt {
+  letter-spacing: 0.8px;
+  padding: 10px 15px 0 20px;
+  line-height: 1.5;
+}
+
+.about .post-list {
+  margin: 70px 0 83.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .about .about-container {
+    padding: 0 35px;
+  }
+
+  .about .img-txt {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+
+  .about .card-wrap {
+    margin-top: 20px;
+    gap: 13px;
+  }
+
+  .about .card-body .card-txt {
+    font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+    font-size: 1.5rem;
+    padding: 0 7px 0 10px;
+  }
+  .header-top-sec-pt.about-sec-pt {
+    padding-bottom: 56px;
+  }
+  .about .mg-one {
+    margin: 30px 0 9px;
+  }
+}
+
+.about .card-img {
+  overflow: hidden;
+}
+
+.about .card-img img {
+  transition: all 0.5s;
+}
+
+.about .card-img img:hover {
+  transform: scale(1.15);
+}
+
+@media screen and (max-width: 768px) {
+  .about .card-img img:hover {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .card-img {
+    padding: 14.5px 0 14px 13.5px;
+  }
+
+  .about .card-body {
+    padding: 14px 0;
+  }
+}
+
+.about .margint {
+  margin-top: 80px;
+}
+
+/* About Page End */
+
+/* Policy Page Start */
+.sec-policy {
+  padding-top: 159px;
+}
+
+/* Policy Page End */
+/* ====================================
+  =================greeting==============
+  ======================================= */
+.greeting-section {
+  padding-top: 150px;
+}
+
+.body-grid-container {
+  display: grid;
+  /* height: 100vh; */
+  width: 100%;
+  margin: 84px 0 90px 0;
+
+  column-gap: 40px;
+  grid-template-columns: 371fr 585fr;
+  grid-template-rows: auto 1fr;
+}
+
+.body-paragraph {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+
+.body-paragraph p {
+  font-size: 2rem;
+  line-height: 1.75;
+
+  letter-spacing: 0.4px;
+}
+
+.body-left-photo img {
+  width: 100%;
+}
+
+.body-photo-name p {
+  margin-top: 10px;
+
+  font-size: 2.8rem;
+  line-height: 1.46;
+
+  text-align: right;
+  letter-spacing: 0.84px;
+}
+
+.body-photo-name p span {
+  font-size: 4rem;
+  line-height: 1.325;
+
+  letter-spacing: 1.2px;
+}
+
+.body-eng-name {
+  font-size: 2.5rem;
+  line-height: 0.52;
+
+  text-align: right;
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+}
+
+.body-profile-name {
+  display: none;
+}
+
+.body-list {
+  max-width: 371px;
+  padding-top: 20px;
+  margin-top: 60px;
+
+  background-color: #fffcef;
+}
+
+.body-list h2 {
+  width: 93px;
+
+  font-size: 18px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.9px;
+
+  color: #fff;
+  background-color: #2c87c9;
+  margin-bottom: 5px;
+}
+
+.body-list-blog {
+  padding: 0 10px 25px 10px;
+}
+
+.body-list-blog ul {
+  font-size: 1.6rem;
+  line-height: 1.78;
+
+  letter-spacing: -1px;
+}
+
+.body-list-blog ul li:first-child {
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+}
+
+.body-list-blog ul li:last-child {
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .body-grid-container {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+  }
+
+  .body-photo {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .body-left-photo {
+    max-width: 142px;
+    margin: 0 auto;
+  }
+
+  .body-photo-txt {
+    max-width: 160px;
+    margin: 0 auto;
+  }
+
+  .body-photo-name p {
+    font-size: 1.1rem;
+
+    text-align: center;
+    letter-spacing: -0.275px;
+  }
+
+  .body-photo-name p span {
+    font-size: 2rem;
+
+    letter-spacing: 0.8px;
+  }
+
+  .body-eng-name {
+    font-size: 1.1rem;
+
+    text-align: right;
+    letter-spacing: 0.55px;
+    color: #717171;
+  }
+
+  .body-profile-name {
+    display: none;
+    float: right;
+    padding: 2px 20px 2px 15px;
+    margin-top: 5px;
+
+    font-size: 1.1rem;
+
+    letter-spacing: -0.55px;
+
+    color: #fff;
+    background-color: #2c87c9;
+  }
+
+  .body-paragraph {
+    width: auto;
+    margin: 47px auto;
+  }
+
+  .body-paragraph p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .body-list {
+    max-width: 100%;
+    width: auto;
+    padding-top: 10px;
+  }
+
+  .body-list h2 {
+    width: 70px;
+    height: 22px;
+
+    font-size: 1.6rem;
+
+    letter-spacing: 0.8px;
+  }
+
+  .body-list-blog {
+    padding: 5px 5px 10px 7px;
+  }
+
+  .body-list-blog ul {
+    font-size: 1.1rem;
+
+    letter-spacing: 0;
+  }
+}
+
+/* ====================================
+  =================facilities==============
+  ======================================= */
+.facilities .mg-two {
+  margin: 18px 0 5px;
+}
+.facilities .facility-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+
+  text-align: center;
+  letter-spacing: 0.4px;
+  margin-bottom: 20px;
+}
+
+.facilities .facility-rtxt {
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-size: 2rem;
+  line-height: 1.75;
+
+  text-align: right;
+  letter-spacing: -0.4px;
+  color: #2c87c9;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .facilities .facility-txt,
+  .facility-rtxt {
+    font-size: 1.5rem;
+  }
+}
+
+.facilities .sub-ttl {
+  margin-bottom: 17px;
+}
+
+.facilities .fac-blue,
+.fac-green,
+.fac-red {
+  margin-bottom: 100px;
+}
+
+.facilities .fac-yellow {
+  margin-bottom: 172px;
+}
+
+@media screen and (max-width: 768px) {
+  .facilities .fac-blue,
+  .fac-green,
+  .fac-red {
+    margin-bottom: 50px;
+  }
+
+  .facilities .fac-yellow {
+    margin-bottom: 50px;
+  }
+}
+
+.facilities .card-inner {
+  padding: 25px 16px 10px;
+  box-sizing: border-box;
+}
+
+.facilities .card-img {
+  margin-bottom: 12px;
+}
+
+/* video gray card */
+.video-gray-box {
+  display: flex;
+  height: 614px;
+  max-width: 1000px;
+
+  border: 1px solid var(--border-gray);
+  background: var(--gray-color);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.video-gray-box .gray-box-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 1.4rem;
+
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video-gray-box {
+    height: 300px;
+  }
+
+  .video-gray-box .gray-box-txt {
+    padding: 10px;
+
+    font-size: 1.2rem;
+  }
+}
+
+/* video gray card end*/
+
+/* card-with-list */
+.facilities-inner {
+  padding: 9px 23px 77px 23px;
+}
+
+.facilities-inner.green {
+  background: var(--bg-green);
+}
+
+.faci-inner-ttl {
+  font-family: "こぶりなゴシック Std W3", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.68;
+  letter-spacing: 1.25px;
+  padding-bottom: 8.5px;
+  margin-bottom: 15px;
+}
+
+.faci-inner-ttl.green {
+  color: var(--green-color);
+  border-bottom: 2px dashed var(--border-h5-green);
+}
+
+.faci-inner-list {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.85;
+  letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 768px) {
+  .faci-inner-ttl {
+    font-size: 2rem;
+  }
+
+  .faci-inner-list {
+    font-size: 1.5rem;
+  }
+}
+
+/* card-with-list end*/
+
+/* fac-card */
+.fac-card-grid {
+  display: grid;
+  grid-template-columns: 51% 46.2%;
+  column-gap: 2.8%;
+}
+
+.col-531 {
+  grid-template-columns: 53.1% 43.8%;
+  column-gap: 3.1%;
+}
+
+.col-521 {
+  grid-template-columns: 52.1% 45.9%;
+  column-gap: 2%;
+}
+
+.col-500 {
+  grid-template-columns: 50% 48.6%;
+  column-gap: 1.4%;
+}
+
+.col-490 {
+  grid-template-columns: 49% 49.6%;
+  column-gap: 1.4%;
+}
+
+.col-465 {
+  grid-template-columns: 46.4% 51.8%;
+  column-gap: 1.8%;
+}
+
+.col-465n {
+  grid-template-columns: 46.4% 52.2%;
+}
+.col-465n.cgap-15 {
+  column-gap: 1.5%;
+}
+
+.colr-480 {
+  grid-template-columns: 50% 48%;
+  column-gap: 2%;
+}
+
+.colr-495 {
+  grid-template-columns: 48.3% 49.4%;
+  column-gap: 2.3%;
+}
+
+.colr-495r {
+  grid-template-columns: 49.4% 48.3%;
+  column-gap: 2.3%;
+}
+
+.col-450 {
+  grid-template-columns: 450px auto;
+}
+
+.fac-card-item .fac-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+
+.fac-card-item .fac-img img {
+  width: 100%;
+}
+
+.fac-card-item .fac-right {
+  text-align: right;
+  width: 50%;
+}
+
+.fac-card-item .fac-right.fac-img-txt {
+  text-align: left;
+}
+
+.fac-img-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  text-align: right;
+  letter-spacing: 0;
+  padding: 5px;
+}
+
+.fac-imggp-ttl {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.68;
+  letter-spacing: 1.25px;
+  position: relative;
+  padding-left: 25px;
+  display: block;
+}
+.fac-imggp-ttl::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  top: 11px;
+  left: 0%;
+}
+
+.fac-imggp-ttl-20 {
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+}
+
+.fac-imggp-ttl-20::before {
+  content: "■";
+}
+
+.fac-imggp-ttl.green::before {
+  background-color: var(--green-color);
+}
+
+.fac-img-item img {
+  width: 100%;
+}
+
+/*20230130追加*/
+.fac-card-item .fac-left {
+  width: 50%;
+}
+.fac-card-item .fac-3col {
+  width: 33%;
+}
+.fac-card-item .fac-4col {
+  width: 25%;
+}
+.fac-card-item .fac-img-l {
+  width: 100%;
+  margin-right: 5px;
+}
+.fac-card-item .fac-img-r {
+  width: 100%;
+  margin-left: 5px;
+}
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 20px 0;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .fac-imggp-ttl::before {
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    left: 0%;
+  }
+
+  .fac-card-item .fac-txt {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .fac-card-item .fac-right .fac-txt {
+    margin-bottom: 0;
+  }
+
+  .fac-img-txt {
+    font-size: 1.2rem;
+    margin-right: 10%; /*20230219追加*/
+  }
+
+  .fac-imggp-ttl {
+    font-size: 1.8rem;
+  }
+  /*20230201*/
+  .fac-card-item .fac-right {
+    width: 100%;
+  }
+  .fac-card-item .fac-left {
+    width: 100%;
+  }
+  /*20230201 end*/
+  /*20230219*/
+  .fac-card-item .fac-3col {
+    width: 100%;
+  }
+  .fac-card-item .fac-4col {
+    width: 100%;
+  }
+  /*20230219end*/
+}
+
+@media screen and (max-width: 450px) {
+  .fac-card-item .fac-txt-sp {
+    font-size: 1.2rem;
+  }
+}
+
+/* fac-card end*/
+/* fac-ttl-h4 */
+.fac-ttl-h4 {
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.74;
+  letter-spacing: 1.25px;
+}
+
+@media screen and (max-width: 768px) {
+  .fac-ttl-h4 {
+    font-size: 1.8rem;
+  }
+}
+
+/* fac-ttl-h4 end*/
+/* isemaru */
+.isemaru-facilities .div-sec1 {
+  margin-bottom: 60px;
+}
+
+.isemaru-facilities .div-sec2 {
+  margin-bottom: 80px;
+}
+
+.isemaru-facilities .fac-ttl-h4 {
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+  .isemaru-facilities .div-sec1 {
+    margin-bottom: 30px;
+  }
+  .isemaru-facilities .div-sec2 {
+    margin-bottom: 40px;
+  }
+}
+
+/* isemaru end */
+/* kanaya */
+.kanaya-facilities .div-sec1 {
+  margin-bottom: 65px;
+}
+
+.kanaya-facilities .div-sec2 {
+  margin-bottom: 95px;
+}
+
+.kanaya-facilities .div-sec1 .fac-ttl-h4 {
+  margin-bottom: 10px;
+}
+
+.kanaya-facilities .div-sec1 .fac-img-one:first-child {
+  margin-bottom: 40px;
+}
+
+.kanaya-facilities .div-sec2 .fac-ttl-h4 {
+  margin-bottom: 12px;
+}
+
+.kanaya-facilities .div-sec2 .fac-img-txt {
+  margin-top: 7px;
+}
+
+/* kanaya end*/
+/* kencho */
+.kencho-facilities .fac-card-item {
+  margin-bottom: 50px;
+}
+
+/* kencho end */
+/* stuwe */
+.stuwe-facilities .fac-card-item {
+  margin-bottom: 40px;
+}
+
+.stuwe-facilities .fac-img-txt.txt-left {
+  margin-top: 5px;
+}
+
+.stuwe-facilities .div-sec1 {
+  margin-bottom: 105px;
+}
+
+.stuwe-facilities .fac-img-one {
+  margin-top: 10px;
+}
+.stuwe-facilities .fac-txt {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 2rem;
+  line-height: 1.875;
+  letter-spacing: 0.4px;
+}
+@media screen and (max-width: 768px) {
+  .kanaya-facilities .div-sec1 .fac-img-one:first-child {
+    margin-bottom: 20px;
+  }
+  .kanaya-facilities .div-sec1 {
+    margin-bottom: 30px;
+  }
+  .kanaya-facilities .div-sec2 {
+    margin-bottom: 50px;
+  }
+  .stuwe-facilities .fac-txt {
+    font-size: 1.5rem;
+  }
+  .stuwe-facilities .fac-img-one {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .stuwe-facilities .div-sec1 {
+    margin-bottom: 50px;
+  }
+}
+
+/* stuwe page */
+/* ktr */
+.ktr-facilities .fac-right .fac-img-one {
+  margin-bottom: 20px;
+}
+
+.ktr-facilities .div-sec {
+  margin-bottom: 100px;
+}
+
+/* ktr end */
+/* meso */
+/* .meso-facilities .div-sec {
+    margin-bottom: 90px;
+  } */
+
+.meso-facilities .fac-right .fac-img-one {
+  margin-bottom: 20px;
+}
+
+.meso-facilities .meso-img img {
+  width: 100%;
+}
+
+.meso-facilities .meso-img-txt {
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.73;
+  letter-spacing: -0.325px;
+}
+
+.meso-facilities .div-sec .fac-imggp-ttl-20 {
+  margin-bottom: 20px;
+}
+
+/* meso end */
+/* ensn */
+/* .ensn-facilities .fac-card-item:last-child{
+    margin-bottom: 35px;
+  } */
+@media screen and (max-width: 768px) {
+  .meso-facilities .div-sec .fac-imggp-ttl-20 {
+    font-size: 1.8rem;
+  }
+  .ensn-facilities .fac-img-one {
+    margin-bottom: 30px;
+  }
+  .xraycy-facilities .grid-one-sp.g-col2-sp,
+  .meso-facilities .grid-one-sp.g-col2-sp {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+/* ensn end*/
+/* ssgt */
+/* .ssgt-facilities .card-wrap {
+    margin-bottom: 95px;
+  } */
+
+/* ssgt end*/
+/* xraycy */
+.xraycy-facilities .fac-full-img {
+  margin-bottom: 80px;
+}
+
+/* .xraycy-facilities .fac-img-gp {
+    margin-bottom: 106px;
+  } */
+
+.xraycy-facilities .fac-img-gp .fac-imggp-ttl {
+  margin-bottom: 27px;
+}
+
+/* xraycy end*/
+/* ====================================
+  =================facilities end========
+  ======================================= */
+
+/* ====================================
+  =================partnership start==============
+  ======================================= */
+.sec-partnership {
+  padding-top: 165px;
+  padding-bottom: 105px;
+}
+
+.partnership-subttl-block {
+  /* padding-top: 80px; */
+}
+
+.partnership-subttl-block p {
+  line-height: 1.875;
+}
+
+.finance-results {
+  margin-bottom: 10px;
+
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.3;
+
+  color: #164763;
+}
+
+.finance-results span {
+  font-size: 2rem;
+}
+
+.sec-partnership .time-table.table-col-3 tr td:nth-child(2) {
+  padding: 0 35px;
+
+  text-align: left;
+}
+
+.partner-img-txt {
+  font-size: 1.4rem;
+  text-align: right;
+  padding-top: 10px;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-partnership {
+    padding: 80px 0 0 0;
+  }
+
+  .partnership-subttl-block {
+    /* padding-top: 10px; */
+  }
+
+  .partnership-subttl-block p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .finance-results {
+    font-size: 1.8rem;
+  }
+
+  .finance-results span {
+    font-size: 1.5rem;
+  }
+
+  .partner-img-txt {
+    font-size: 1rem;
+    margin-bottom: 45px;
+    padding-top: 5px;
+  }
+  .xraycy-facilities .fac-full-img {
+    margin-bottom: 50px;
+  }
+  .xraycy-facilities .fac-img-gp .fac-imggp-ttl {
+    margin-bottom: 20px;
+  }
+}
+
+/* ====================================
+  =================partnership end==============
+  ======================================= */
+
+/* ====================================
+  =================procurance start==============
+  ======================================= */
+
+.procurance-pg .contact-box {
+  margin: 100px 0 130px;
+}
+
+@media screen and (max-width: 768px) {
+  .procurance-pg .contact-box {
+    margin: 55px 0 0;
+  }
+}
+
+/* ====================================
+  =================procurance end==============
+  ======================================= */
+
+/* ====================================
+  =================organization start==============
+  ======================================= */
+
+.emp-num {
+  margin: 55px 0 145px 0;
+}
+
+.emp-num-pt {
+  display: flex;
+  max-width: 50%;
+}
+
+.org-stt {
+  margin-bottom: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  .emp-num {
+    margin: 25px 0 70px 0;
+  }
+
+  .emp-num-pt {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .org-stt {
+    margin-bottom: 35px;
+  }
+}
+
+/* ====================================
+  =================organization end==============
+  ======================================= */
+
+/* ====================================
+  =================map start==============
+  ======================================= */
+.map-pg .txt-ttl .txt-ttl-sm {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 0.8;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+.map-pg .txt-ttl h2 {
+  font-size: 3rem;
+  line-height: 1.58;
+  font-family: "ヒラギノUD角ゴ Std W4", sans-serif;
+}
+
+.map-pg .txt-ttl {
+  margin: -55px 0 40px;
+}
+.map-pg h5 {
+  margin-bottom: 0;
+}
+.map-pg .map-box {
+  margin-bottom: 35px;
+}
+.map-pg .simple-list {
+  margin-bottom: 42px;
+}
+#breadcrumb.map-mt40 {
+  margin-top: 40px;
+}
+.no-list {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.no-list ul {
+  list-style: none;
+  columns: 2;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .map-pg .txt-ttl .txt-ttl-sm {
+    font-size: 1.4rem;
+  }
+
+  .map-pg .txt-ttl h2 {
+    font-size: 2rem;
+  }
+
+  .map-pg .txt-ttl {
+    margin: -20px 0 20px;
+  }
+
+  .no-list {
+    max-width: 380px;
+  }
+
+  .no-list ul {
+    columns: 1;
+    font-size: 1.5rem;
+  }
+}
+
+/* ====================================
+  =================map end==============
+  ======================================= */
+
+/* ====================================
+  =================summary Start==============
+  ======================================= */
+.sum-card {
+  gap: 6px;
+}
+
+.full-card {
+  padding: 15px;
+}
+
+.sum-card .card-ttl,
+.full-card .card-ttl {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+  display: block;
+  position: relative;
+  padding-left: 25px;
+}
+
+.card-ttl::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  top: 6px;
+  left: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .card-ttl::before {
+    width: 12px;
+    height: 12px;
+    left: 1%;
+  }
+}
+
+.sum-card .card-ttl-blue::before {
+  background: var(--blue-color);
+}
+
+.sum-card .card-tttl-green::before {
+  background: var(--green-color);
+}
+
+.sum-card .card-ttl-red::before {
+  background: var(--red-color);
+}
+
+.card-ttl-org::before {
+  background: var(--center-org);
+}
+
+.sum-card .card-body p {
+  font-size: 1.4rem;
+  line-height: 1.71;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  margin: 15px 0;
+}
+
+.sum-card .btn-border-blue-sm a,
+.sum-card .btn-border-green-sm a,
+.sum-card .btn-border-red-sm a {
+  padding: 0;
+}
+
+.full-card-table {
+  width: 100%;
+}
+
+.full-card-table tr td {
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  padding: 25px;
+  background-image: linear-gradient(to right, var(--border-gray) 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 2px 1px;
+  background-repeat: repeat-x;
+}
+
+.full-card-table tr.full-card-ttl td {
+  padding: 0 0 10px;
+}
+
+.full-card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.full-card-grid h5 {
+  grid-column: 1 / 6;
+  font-size: 1.9rem;
+  line-height: 1.63;
+  font-weight: 700;
+  font-family: source-han-sans-japanese, sans-serif;
+}
+
+.full-card-grid p {
+  grid-column: 1 / 5;
+}
+
+.full-card-grid div {
+  text-align: right;
+  /* align-self: center; */
+}
+
+.sum-box .sub-ttl {
+  margin-bottom: 15px;
+}
+
+.sub-ttl-box {
+  margin-bottom: 18px;
+}
+
+.sub-ttl-box .h4-ttl {
+  margin-bottom: -20px;
+}
+
+.sub-ttl-box .h5-ttl {
+  margin-bottom: 0px;
+  line-height: 1.5;
+  font-family: "ヒラギノUD角ゴ Std W6", sans-serif;
+  color: var(--txt-dark-blue);
+}
+
+.sum-list {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+}
+
+.sum-list .sum-li-ttl {
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.sum-list a {
+  text-decoration: underline;
+}
+.summary-list {
+  font-size: 2rem;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  padding-left: 23px;
+}
+.summary-list .underline-txt {
+  text-decoration: underline;
+}
+@media screen and (max-width: 870px) {
+  .full-card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sum-card .card-body p,
+  .full-card-table tr td {
+    font-size: 1.2rem;
+  }
+
+  .sum-card .card-ttl,
+  .full-card .card-ttl {
+    font-size: 1.5rem;
+  }
+
+  .full-card-grid h5 {
+    font-size: 1.5rem;
+  }
+
+  .sum-card .card-body p {
+    margin: 0 0 0 7px;
+  }
+
+  .sum-card .card-ttl {
+    grid-column: 1/3;
+  }
+
+  .sum-card .topblog-post-imgbox {
+    grid-column: 1;
+  }
+
+  .sum-card .btn-border-blue-sm a,
+  .sum-card .btn-border-green-sm a,
+  .sum-card .btn-border-red-sm a {
+    padding: 5px 0;
+  }
+
+  .full-card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .full-card-grid h5 {
+    grid-column: 1;
+  }
+
+  .full-card-grid p {
+    grid-column: 1;
+  }
+
+  .full-card-table tr td {
+    padding: 15px;
+  }
+
+  .sum-list {
+    font-size: 1.4rem;
+  }
+
+  .sum-list .sum-li-ttl {
+    font-size: 1.8rem;
+  }
+  .summary .card-btn {
+    text-align: left;
+    margin-left: 7px;
+  }
+  .summary-list {
+    font-size: 1.5rem;
+  }
+}
+.summary .full-card .card-ttl {
+  padding-left: 35px;
+}
+@media screen and (max-width: 768px) {
+  .summary .full-card .card-ttl {
+    padding-left: 20px;
+  }
+}
+
+.summary .card-inner {
+  padding: 14px 10px 20px 13px;
+}
+
+.summary .sum-img {
+  position: relative;
+}
+
+.summary .sum-img img {
+  width: 100%;
+}
+.summary .sum-txt-bgcol {
+  background-color: rgba(43, 135, 201, 0.75);
+  width: 100%;
+  height: 46px;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: multiply;
+  transition: all 0.3s ease;
+}
+.summary .sum-txt-bgcol02 {
+  background-color: rgba(13, 155, 40, 0.75);
+}
+.summary .sum-txt-bgcol03 {
+  background-color: rgba(204, 59, 76, 0.75);
+}
+.summary .sum-img-txt {
+  font-family: "Source Han Sans JP";
+  font-size: 1.9rem;
+  font-weight: 700;
+  z-index: 20;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.summary .sum-txt-bgcol:hover {
+  height: 100%;
+}
+.summary .sum-img p:hover + div {
+  height: 100%;
+}
+@media screen and (max-width: 500px) {
+  .summary .sum-txt-bgcol {
+    height: 34.2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .summary .sum-img-txt {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+}
+.summary .btn-con {
+  display: grid;
+  grid-template-rows: 55px auto;
+}
+@media screen and (max-width: 950px) {
+  .summary .btn-con {
+    display: block;
+  }
+  .summary .card-btn-gp {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .summary .btn-con {
+    align-self: end;
+  }
+  .summary .card-btn-gp {
+    margin-top: 10px;
+  }
+}
+/* ====================================
+  =================summary end==============
+  ======================================= */
+
+/* ====================================
+  =================contribution start==============
+  ======================================= */
+.contri-p {
+  text-align: center;
+  margin-top: -55px;
+}
+.contri-grid {
+  gap: 20px 80px;
+}
+.contri-grid-02 {
+  gap: 20px 30px;
+}
+@media screen and (max-width: 768px) {
+  .contri-p {
+    margin-top: -20px;
+  }
+}
+/* ====================================
+  =================contribution end==============
+  ======================================= */
+
+/* About Pages Correction */
+.xraycy-facilities .grupu-box,
+.ssgt-facilities .grupu-box,
+.ensn-facilities .grupu-box,
+.meso-facilities .grupu-box,
+.ktr-facilities .grupu-box,
+.stuwe-facilities .grupu-box,
+.kencho-facilities .grupu-box,
+.kanaya-facilities .grupu-box,
+.isemaru-facilities .grupu-box {
+  padding-bottom: 74px;
+}
+.ensn-facilities .fac-card-item .fac-right {
+  display: grid;
+  gap: 40px;
+}
+.facilities .card-title .txt-end {
+  font-family: "ヒラギノUD角ゴ StdN W5", sans-serif;
+}
+.facilities .card-title {
+  margin-bottom: 7px;
+  padding-left: 3px;
+  line-height: 1.5;
+}
+.facilities .card-btn {
+  padding-right: 2px;
+}
+.facilities .card-inner.card-br-ttl {
+  padding-top: 9px;
+}
+.facilities .card-inner.card-br-ttl .card-title {
+  margin-bottom: 5px;
+}
+.about .main-img {
+  position: relative;
+}
+.about .about-mv-txt {
+  position: absolute;
+  top: 62px;
+  left: 0px;
+  width: 100%;
+  padding: 0 30px;
+}
+.about .about-mv-bg {
+  width: 100%;
+}
+.about .about-mv-bg img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .stuwe-facilities .fac-img-one,
+  .kencho-facilities .fac-img-one,
+  .isemaru-facilities .fac-img-one,
+  .kanaya-facilities .fac-img-one {
+    max-width: 464px;
+    margin: 0 auto 20px;
+  }
+  .xraycy-facilities .grupu-box,
+  .ssgt-facilities .grupu-box,
+  .ensn-facilities .grupu-box,
+  .meso-facilities .grupu-box,
+  .ktr-facilities .grupu-box,
+  .stuwe-facilities .grupu-box,
+  .kencho-facilities .grupu-box,
+  .kanaya-facilities .grupu-box,
+  .isemaru-facilities .grupu-box {
+    padding-bottom: 50px;
+  }
+
+  .ensn-facilities .fac-card-item .fac-right,
+  .meso-facilities .fac-card-item .fac-right,
+  .ktr-facilities .fac-card-item .fac-right {
+    max-width: 464px;
+    margin: 0 auto;
+  }
+  .ensn-facilities .fac-card-item .fac-right {
+    gap: 0;
+  }
+  .ktr-facilities .div-sec {
+    margin-bottom: 60px;
+  }
+
+  .ssgt-facilities .card-img {
+    max-width: 422px;
+  }
+  .facilities .facility-rtxt {
+    font-size: 1.5rem;
+  }
+  .about .main-img {
+    background-size: contain;
+  }
+  .about .about-mv-txt {
+    padding: 0 25px;
+    top: 15px;
+  }
+  .about .about-mv-bg img {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .facilities .card-wrap.grid-two-sp {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* End of About Pages Correction */
+
+/* 電子入札システムはこちらから */
+.ele-sys-form-gp {
+  background: #ededed;
+  margin: 100px 0 112px;
+}
+.ele-sys-form-gp .ele-sys-form {
+  padding: 40px 20px;
+  text-align: center;
+}
+.ele-sys-form-gp .ele-sys-form a {
+  max-width: 682px;
+  margin: 10px auto 0;
+  font-size: 3rem;
+  background: #86b966;
+  padding: 18px 10px;
+  color: #fff;
+  border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  .ele-sys-form-gp .ele-sys-form a {
+    font-size: 2.2rem;
+    padding: 12px 10px;
+  }
+  .ele-sys-form-gp {
+    margin: 80px 0 90px;
+  }
+}
+
+/* 20230125追加 */
+.procurance-past-pg .time-table.table-col-3 tr:first-child th {
+  text-align: left;
+  padding-left: 2%;
+  background-color: #2c87c9;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  color: #fff;
+}
+.procurance-past-pg .time-table.table-col-3 tr:not(:first-child) th:nth-child(1) {
+  background-color: #b5d5ec;
+}
+
+.procurance-past-pg .time-table.table-col-3 tr:not(:first-child) th:nth-child(2) {
+  background-color: #cae1f2;
+  width: 20.3%;
+}
+
+.procurance-past-pg .time-table.table-col-3 tr:not(:first-child) th:nth-child(3) {
+  background-color: #b5d5ec;
+  width: 72.9%;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(1) {
+  width: 6.8%;
+  background-color: #f5f5f5;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(2) {
+  width: 20.3%;
+  background-color: #fafafa;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(3) {
+  width: 72.9%;
+  text-align: left;
+  text-decoration: underline;
+  background-color: #f5f5f5;
+}
+
+.time-table.table-col-10 tr th {
+  background: var(--bg-th-blue-35);
+  color: var(--b-color);
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W5", sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  vertical-align: middle;
+}
+
+.time-table.table-col-10 tr th:nth-child(even) {
+  background: var(--bg-th-blue-25);
+}
+
+.time-table.table-col-10 tr th.th-main {
+  text-align: left;
+  background-color: var(--mid-blue);
+  color: var(--w-color);
+  font-size: 3rem;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  font-family: "こぶりなゴシック Std W6", sans-serif;
+  padding: 5px 0 5px 20px;
+}
+
+.time-table.table-col-10 tr td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 1.71;
+  padding: 10px;
+  word-spacing: 9999px;
+  letter-spacing: -0.5px;
+}
+
+.time-table.table-col-10 tr td:nth-child(odd) {
+  background-color: var(--bg-td-gray-49);
+}
+
+.time-table.table-col-10 tr td:nth-child(even) {
+  background-color: var(--bg-td-w-49);
+}
+
+.time-table.table-col-10 tr td:nth-child(1) {
+  width: 8.5%;
+  background-color: #f2f2f2;
+}
+
+.time-table.table-col-10 tr td:nth-child(2) {
+  width: 12%;
+  background-color: #fafafa;
+}
+
+.time-table.table-col-10 tr td:nth-child(3) {
+  width: 22.1%;
+}
+
+.time-table.table-col-10 tr td:nth-child(4) {
+  width: 15.3%;
+}
+
+@media screen and (max-width: 768px) {
+  .time-table.table-col-10 tr th.th-main {
+    font-size: 2rem;
+    padding: 3px 0 3px 10px;
+  }
+
+  .time-table tr td {
+    font-size: 1.5rem;
+    padding: 10px 10px;
+  }
+
+  .time-table.table-col-10 tr th {
+    font-size: 1.5rem;
+    padding: 10px 0;
+  }
+
+  .time-table.table-col-10 tr td {
+    font-size: 1.2rem;
+  }
+}
+
+.summary-mv-bg {
+  background: url(<$mt:WebsiteURL$>//about_mv_pc.png) center no-repeat;
+  background-size: cover;
+  padding: 60px 0 21%;
+}
+.about .summary-mv-txt {
+  text-align: right;
+}
+.summary-mv-txt .img-txt {
+  font-size: 2rem;
+  line-height: 1.8;
+  text-align: right;
+}
+.roma-sub-ttl {
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 768px) {
+  .roma-sub-ttl {
+    font-size: 1.8rem;
+  }
+  .summary-mv-txt .img-txt {
+    font-size: 1.6rem;
+  }
+}
+
+/* 20230127追加 */
+.procurance-past-pg .time-table {
+  margin-bottom: 70px;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr:first-child th {
+  color: #000;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka th:nth-child(1) {
+  width: 5%;
+  background-color: #b5d5ec;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka th:nth-child(2) {
+  width: 19%;
+  background-color: #cae1f2;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka th:nth-child(3) {
+  width: 19%;
+  background-color: #b5d5ec;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka th:nth-child(4) {
+  width: 19%;
+  background-color: #cae1f2;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka th:nth-child(5) {
+  width: 19%;
+  background-color: #b5d5ec;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka th:nth-child(6) {
+  width: 19%;
+  background-color: #cae1f2;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(4) {
+  background-color: #f5f5f5;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(5) {
+  background-color: #fafafa;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(6) {
+  background-color: #f5f5f5;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(7) {
+  background-color: #fafafa;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(8) {
+  background-color: #f5f5f5;
+}
+.procurance-past-pg .time-table.table-col-3 tr td:nth-child(9) {
+  background-color: #fafafa;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(1) {
+  width: 5%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(2) {
+  width: 19%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(3) {
+  width: 19%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(4) {
+  width: 19%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(5) {
+  width: 19%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(6) {
+  width: 19%;
+}
+/* 20230127追加 ここまで */
+/* 20230131追加*/
+.procurance-past-pg .time-table {
+  margin-bottom: 70px;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green tr:first-child th {
+  color: #000;
+  text-align: center;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(1) {
+  width: 30%;
+  background-color: #0d9b28;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(2) {
+  width: 40%;
+  background-color: #c2e6c9;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(3) {
+  width: 40%;
+  background-color: #0d9b28;
+}
+
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(1) {
+  width: 30%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(2) {
+  width: 40%;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka tr td:nth-child(3) {
+  width: 40%;
+}
+..time-table.table-col-3 tr td {
+  text-align: left;
+}
+/* 20230131追加 ここまで */
+/* 20230212追加 ここから */
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(1) {
+  background-color: rgba(44, 135, 201, 0.35);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(2) {
+  background-color: rgba(44, 135, 201, 0.25);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(3) {
+  background-color: rgba(44, 135, 201, 0.35);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(4) {
+  background-color: rgba(44, 135, 201, 0.25);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(5) {
+  background-color: rgba(44, 135, 201, 0.35);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(6) {
+  background-color: rgba(44, 135, 201, 0.25);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(7) {
+  background-color: rgba(44, 135, 201, 0.35);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(8) {
+  background-color: rgba(44, 135, 201, 0.25);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(9) {
+  background-color: rgba(44, 135, 201, 0.35);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(10) {
+  background-color: rgba(44, 135, 201, 0.25);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green.tb_blue th:nth-child(11) {
+  background-color: rgba(44, 135, 201, 0.35);
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(4) {
+  background-color: #0d9b28;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(5) {
+  background-color: #c2e6c9;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(6) {
+  background-color: #0d9b28;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(7) {
+  background-color: #c2e6c9;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(8) {
+  background-color: #0d9b28;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(9) {
+  background-color: #c2e6c9;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(10) {
+  background-color: #0d9b28;
+}
+.procurance-past-pg .time-table.table-col-3.table-kekka-green th:nth-child(11) {
+  background-color: #c2e6c9;
+}
+/* 20230212追加 ここまで */
+/* 20230217追加 ここから */
+.procurance-past-pg .time-table.table-col-3.table-his td:nth-child(1) {
+  width: 11%;
+  background-color: #f5f5f5;
+}
+.procurance-past-pg .time-table.table-col-3.table-his td:nth-child(2) {
+  width: 11%;
+  background-color: #f5f5f5;
+}
+.procurance-past-pg .time-table.table-col-3.table-his td:nth-child(3) {
+  width: 78%;
+  background-color: #fafafa;
+  text-decoration: none;
+}
+/* 20230217追加 ここまで */

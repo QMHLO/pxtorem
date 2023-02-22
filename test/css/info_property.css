@@ -1,0 +1,56 @@
+.info-box {
+  margin-bottom: 80px;
+}
+.info-box .sub-ttl {
+  margin-bottom: 10px;
+}
+.info-sub-box {
+  margin-bottom: 60px;
+}
+.info-box,
+.info-sub-box {
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.875;
+  font-family: "ヒラギノUD角ゴ Std W3", sans-serif;
+}
+.info-sub-box span {
+  font-size: 1.4rem;
+  line-height: 1.71;
+  letter-spacing: 0;
+}
+.info-base-btn {
+  text-align: right;
+  align-self: end;
+  margin-top: 28px;
+}
+.info-property-pg #breadcrumb {
+  margin-top: 170px;
+}
+/* .info-base-btn .btn{
+    width: 374px;
+} */
+
+@media screen and (max-width: 768px) {
+  .info-box {
+    margin-bottom: 40px;
+  }
+  .info-sub-box {
+    margin-bottom: 30px;
+  }
+  /* .info-box:nth-child(3){
+        margin: 0;
+    } */
+  .info-box p {
+    font-size: 1.5rem;
+  }
+  .info-base-btn {
+    margin-top: 14px;
+  }
+  .info-base-btn .btn {
+    width: 100%;
+  }
+  .info-sub-box span {
+    font-size: 1.2rem;
+  }
+}
